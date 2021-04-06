@@ -1,638 +1,599 @@
-Alveolar_retention_h_mg,Alveolar_retention_w_mg,Alveolar_retention_y_mg,Alveolar_surface_cm2,Clearance,Deposited_per_area_h_mg/cm2,Deposited_per_area_w_mg/cm2,Deposited_per_area_y_mg/cm2,Exposure,Exposure_time_d,Exposure_time_h,Exposure_time_w,Lung_Model,Substance,agg_diameter_nm,density_g/cm2,pp_diameter_nm,sex
-0.088,,,792000,Yes,1.11E-07,,,constant,1,4,1,Yeh/Schum Symmetric,MgO,852.2,0.168972577,46.66,male
-,159.7,29.5,792000,Yes,,0.000201641,3.72E-05,constant,5,8,1820,Yeh/Schum Symmetric,MgO,852.2,0.168972577,46.66,male
-0.4952,,,792000,Yes,6.25E-07,,,constant,1,4,1,Yeh/Schum Symmetric,MgO,46.66,3.14,46.66,male
-,898.2,165.9,792000,Yes,,0.001134091,0.00020947,constant,5,8,1820,Yeh/Schum Symmetric,MgO,46.66,3.14,46.66,male
-0.5268,,,792000,Yes,6.65E-07,,,constant,1,24,1,Yeh/Schum Symmetric,MgO,852.2,0.168972577,46.66,male
-2.963,,,792000,Yes,3.74E-06,,,constant,1,24,1,Yeh/Schum Symmetric,MgO,46.66,3.14,46.66,male
-0.0889,,,792000,Yes,1.12E-07,,,constant,1,4,1,Yeh/Schum Symmetric,MgO,852.2,0.17704224,46.66,male
-,161.2,29.8,792000,Yes,,0.000203535,3.76E-05,constant,5,8,1820,Yeh/Schum Symmetric,MgO,852.2,0.17704224,46.66,male
-0.5318,,,792000,Yes,6.71E-07,,,constant,1,24,1,Yeh/Schum Symmetric,MgO,852.2,0.17704224,46.66,male
-0.1335,,,792000,Yes,1.69E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,842.6,0.647970299,61.24,male
-,242.1,44.7,792000,Yes,,0.000305682,5.64E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,842.6,0.647970299,61.24,male
-0.4411,,,792000,Yes,5.57E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,61.24,6.155,61.24,male
-,800,147.7,792000,Yes,,0.001010101,0.00018649,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,61.24,6.155,61.24,male
-0.7985,,,792000,Yes,1.01E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,842.6,0.647970299,61.24,male
-2.639,,,792000,Yes,3.33E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,61.24,6.155,61.24,male
-0.134,,,792000,Yes,1.69E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,842.6,0.654171909,61.24,male
-,243,44.9,792000,Yes,,0.000306818,5.67E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,842.6,0.654171909,61.24,male
-0.8018,,,792000,Yes,1.01E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,842.6,0.654171909,61.24,male
-0.125,,,792000,Yes,1.58E-07,,,constant,1,4,1,Yeh/Schum Symmetric,TiO2,569.3,0.741425303,103.2,male
-,226.8,41.9,792000,Yes,,0.000286364,5.29E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,569.3,0.741425303,103.2,male
-0.3139,,,792000,Yes,3.96E-07,,,constant,1,4,1,Yeh/Schum Symmetric,TiO2,103.2,4.0314,103.2,male
-,569.4,105.1,792000,Yes,,0.000718939,0.000132702,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,103.2,4.0314,103.2,male
-0.7481,,,792000,Yes,9.45E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,569.3,0.741425303,103.2,male
-1.878,,,792000,Yes,2.37E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,103.2,4.0314,103.2,male
-0.1253,,,792000,Yes,1.58E-07,,,constant,1,4,1,Yeh/Schum Symmetric,TiO2,569.3,0.747729602,103.2,male
-,227.3,42,792000,Yes,,0.000286995,5.30E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,569.3,0.747729602,103.2,male
-0.7498,,,792000,Yes,9.47E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,569.3,0.747729602,103.2,male
-0.1175,,,792000,Yes,1.48E-07,,,constant,1,4,1,Yeh/Schum Symmetric,CuO,418.6,0.259156808,70.9,male
-,213.2,39.4,792000,Yes,,0.000269192,4.97E-05,constant,5,8,1820,Yeh/Schum Symmetric,CuO,418.6,0.259156808,70.9,male
-0.4078,,,792000,Yes,5.15E-07,,,constant,1,4,1,Yeh/Schum Symmetric,CuO,70.9,6.153,70.9,male
-,739.6,136.6,792000,Yes,,0.000933838,0.000172475,constant,5,8,1820,Yeh/Schum Symmetric,CuO,70.9,6.153,70.9,male
-0.7033,,,792000,Yes,8.88E-07,,,constant,1,24,1,Yeh/Schum Symmetric,CuO,418.6,0.259156808,70.9,male
-2.44,,,792000,Yes,3.08E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CuO,70.9,6.153,70.9,male
-0.1177,,,792000,Yes,1.49E-07,,,constant,1,4,1,Yeh/Schum Symmetric,CuO,418.6,0.265796597,70.9,male
-,213.5,39.4,792000,Yes,,0.000269571,4.97E-05,constant,5,8,1820,Yeh/Schum Symmetric,CuO,418.6,0.265796597,70.9,male
-0.7043,,,792000,Yes,8.89E-07,,,constant,1,24,1,Yeh/Schum Symmetric,CuO,418.6,0.265796597,70.9,male
-0.1404,,,792000,Yes,1.77E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Fe2O3,308,0.27833174,10.25,male
-,254.6,47,792000,Yes,,0.000321465,5.93E-05,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,308,0.27833174,10.25,male
-0.2363,,,792000,Yes,2.98E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Fe2O3,10.25,4.483,10.25,male
-,428.6,79.1,792000,Yes,,0.000541162,9.99E-05,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,10.25,4.483,10.25,male
-0.8399,,,792000,Yes,1.06E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,308,0.27833174,10.25,male
-1.414,,,792000,Yes,1.79E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,10.25,4.483,10.25,male
-0.1405,,,792000,Yes,1.77E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Fe2O3,308,0.285342744,10.25,male
-,254.8,47,792000,Yes,,0.000321717,5.93E-05,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,308,0.285342744,10.25,male
-0.8405,,,792000,Yes,1.06E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,308,0.285342744,10.25,male
-0.1597,,,792000,Yes,2.02E-07,,,constant,1,4,1,Yeh/Schum Symmetric,CeO2,268.4,0.88825126,27.92,male
-,289.7,53.5,792000,Yes,,0.000365783,6.76E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,268.4,0.88825126,27.92,male
-0.534,,,792000,Yes,6.74E-07,,,constant,1,4,1,Yeh/Schum Symmetric,CeO2,27.92,7.2,27.92,male
-,968.5,178.8,792000,Yes,,0.001222854,0.000225758,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,27.92,7.2,27.92,male
-0.9556,,,792000,Yes,1.21E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,268.4,0.88825126,27.92,male
-3.195,,,792000,Yes,4.03E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,27.92,7.2,27.92,male
-0.1598,,,792000,Yes,2.02E-07,,,constant,1,4,1,Yeh/Schum Symmetric,CeO2,268.4,0.894160183,27.92,male
-,289.8,53.5,792000,Yes,,0.000365909,6.76E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,268.4,0.894160183,27.92,male
-0.956,,,792000,Yes,1.21E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,268.4,0.894160183,27.92,male
-0.2032,,,792000,Yes,2.57E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Al2O3,186.8,1.297337387,32.63,male
-,368.5,68,792000,Yes,,0.000465278,8.59E-05,constant,5,8,1820,Yeh/Schum Symmetric,Al2O3,186.8,1.297337387,32.63,male
-0.5352,,,792000,Yes,6.76E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Al2O3,32.63,3.5939,32.63,male
-,970.7,179.2,792000,Yes,,0.001225631,0.000226263,constant,5,8,1820,Yeh/Schum Symmetric,Al2O3,32.63,3.5939,32.63,male
-1.216,,,792000,Yes,1.54E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Al2O3,186.8,1.297337387,32.63,male
-3.202,,,792000,Yes,4.04E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Al2O3,32.63,3.5939,32.63,male
-0.2032,,,792000,Yes,2.57E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Al2O3,186.8,1.302481659,32.63,male
-,368.6,68.1,792000,Yes,,0.000465404,8.60E-05,constant,5,8,1820,Yeh/Schum Symmetric,Al2O3,186.8,1.302481659,32.63,male
-1.216,,,792000,Yes,1.54E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Al2O3,186.8,1.302481659,32.63,male
-1.005,,,792000,Yes,1.27E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,232,0.153019443,12,male
-,304.6,56.2,792000,Yes,,0.000384596,7.10E-05,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,232,0.153019443,12,male
-1.815,,,792000,Yes,2.29E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,12,2.2,12,male
-,550.1,101.6,792000,Yes,,0.000694571,0.000128283,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,12,2.2,12,male
-0.3236,,,792000,Yes,4.09E-07,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,2245,0.019842258,12,male
-,98.1,18.1,792000,Yes,,0.000123864,2.29E-05,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,2245,0.019842258,12,male
-2.859,,,792000,Yes,3.61E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,51,2.354701947,55,male
-,866.6,160,792000,Yes,,0.001094192,0.00020202,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,51,2.354701947,55,male
-2.765,,,792000,Yes,3.49E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,55,2.2,55,male
-,838.2,154.8,792000,Yes,,0.001058333,0.000195455,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,55,2.2,55,male
-1.849,,,792000,Yes,2.33E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,103,1.250822253,55,male
-,560.6,103.5,792000,Yes,,0.000707828,0.000130682,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,103,1.250822253,55,male
-0.5337,,,792000,Yes,6.74E-07,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12,male
-,161.8,29.9,792000,Yes,,0.000204293,3.78E-05,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12,male
-0.1338,,,792000,Yes,1.69E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12,male
-0.4548,,,792000,Yes,5.74E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Amorphous SiO2,12,2.2,12,male
-0.9696,,,792000,Yes,1.22E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12,male
-,293.9,54.3,792000,Yes,,0.000371086,6.86E-05,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12,male
-0.243,,,792000,Yes,3.07E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12,male
-0.9846,,,792000,Yes,1.24E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,261,1.081772487,42,male
-,298.5,55.1,792000,Yes,,0.000376894,6.96E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,261,1.081772487,42,male
-3.066,,,792000,Yes,3.87E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,42,5.6,42,male
-,929.5,171.6,792000,Yes,,0.001173611,0.000216667,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,42,5.6,42,male
-6.795,,,792000,Yes,8.58E-06,,,constant,1,72,1,Yeh/Schum Symmetric,CuO,78,1.802828484,19.94,male
-,691,127.6,792000,Yes,,0.000872475,0.000161111,constant,5,8,1820,Yeh/Schum Symmetric,CuO,78,1.802828484,19.94,male
-8.61,,,792000,Yes,1.09E-05,,,constant,1,72,1,Yeh/Schum Symmetric,CuO,19.94,6.153,19.94,male
-,875.7,161.7,792000,Yes,,0.001105682,0.000204167,constant,5,8,1820,Yeh/Schum Symmetric,CuO,19.94,6.153,19.94,male
-2.163,,,792000,Yes,2.73E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,86,4.339706537,49,male
-,655.6,121.1,792000,Yes,,0.000827778,0.000152904,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,86,4.339706537,49,male
-2.918,,,792000,Yes,3.68E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,49,7.2,49,male
-,884.6,163.3,792000,Yes,,0.001116919,0.000206187,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,49,7.2,49,male
-3.216,,,792000,Yes,4.06E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,124,0.659097149,15.84,male
-,489,90.3,792000,Yes,,0.000617424,0.000114015,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,124,0.659097149,15.84,male
-4.925,,,792000,Yes,6.22E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,15.84,4.2,15.84,male
-,748.9,138.3,792000,Yes,,0.000945581,0.000174621,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,15.84,4.2,15.84,male
-2.53,,,792000,Yes,3.19E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,172,0.729384221,24.59,male
-,384.6,71,792000,Yes,,0.000485606,8.96E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,172,0.729384221,24.59,male
-6.229,,,792000,Yes,7.86E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,24.59,4.2,24.59,male
-,947.1,174.9,792000,Yes,,0.001195833,0.000220833,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,24.59,4.2,24.59,male
-1.548,,,792000,Yes,1.95E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,486,0.844801393,81.8,male
-,235.4,43.5,792000,Yes,,0.000297222,5.49E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,486,0.844801393,81.8,male
-4.445,,,792000,Yes,5.61E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,81.8,4.2,81.8,male
-,675.8,124.8,792000,Yes,,0.000853283,0.000157576,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,81.8,4.2,81.8,male
-0.8232,,,792000,Yes,1.04E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,900,0.640494633,17,male
-,249.5,46.1,792000,Yes,,0.000315025,5.82E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,900,0.640494633,17,male
-2.615,,,792000,Yes,3.30E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,17,3.9,17,male
-,792.8,146.4,792000,Yes,,0.00100101,0.000184848,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,17,3.9,17,male
-1.113,,,792000,Yes,1.41E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,1350,0.617987152,17,male
-,337.3,62.3,792000,Yes,,0.000425884,7.87E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,1350,0.617987152,17,male
-0.7575,,,792000,Yes,9.56E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,670,0.71906631,17,male
-,229.6,42.4,792000,Yes,,0.000289899,5.35E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,670,0.71906631,17,male
-0.9848,,,792000,Yes,1.24E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,1140,0.653277613,17,male
-,298.5,55.1,792000,Yes,,0.000376894,6.96E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,1140,0.653277613,17,male
-0.8038,,,792000,Yes,1.01E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,630,0.893143214,117,male
-,243.7,45,792000,Yes,,0.000307702,5.68E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,630,0.893143214,117,male
-1.73,,,792000,Yes,2.18E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,117,3.9,117,male
-,524.4,96.8,792000,Yes,,0.000662121,0.000122222,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,117,3.9,117,male
-0.9399,,,792000,Yes,1.19E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,880,0.875122608,117,male
-,284.9,52.6,792000,Yes,,0.000359722,6.64E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,880,0.875122608,117,male
-0.8761,,,792000,Yes,1.11E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,690,1.029966307,117,male
-,265.6,49,792000,Yes,,0.000335354,6.19E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,690,1.029966307,117,male
-1.05,,,792000,Yes,1.33E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,1010,0.890208607,117,male
-,318.4,58.8,792000,Yes,,0.00040202,7.42E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,1010,0.890208607,117,male
-1.479,,,792000,Yes,1.87E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,140,0.881376194,24.7,male
-,448.5,82.8,792000,Yes,,0.000566288,0.000104545,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,140,0.881376194,24.7,male
-3.128,,,792000,Yes,3.95E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,24.7,4.2,24.7,male
-,948.2,175.1,792000,Yes,,0.001197222,0.000221086,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,24.7,4.2,24.7,male
-0.0618,,,792000,Yes,7.80E-08,,,constant,1,1,1,Yeh/Schum Symmetric,TiO2,140,0.881376194,24.7,male
-0.1307,,,792000,Yes,1.65E-07,,,constant,1,1,1,Yeh/Schum Symmetric,TiO2,24.7,4.2,24.7,male
-1.34,,,792000,Yes,1.69E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,160,0.790109555,25,male
-,406.1,75,792000,Yes,,0.000512753,9.47E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,160,0.790109555,25,male
-3.137,,,792000,Yes,3.96E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,25,4.2,25,male
-,950.9,175.6,792000,Yes,,0.001200631,0.000221717,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,25,4.2,25,male
-0.056,,,792000,Yes,7.07E-08,,,constant,1,1,1,Yeh/Schum Symmetric,TiO2,160,0.790109555,25,male
-0.1311,,,792000,Yes,1.66E-07,,,constant,1,1,1,Yeh/Schum Symmetric,TiO2,25,4.2,25,male
-1.433,,,792000,Yes,1.81E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,144.4,0.269356487,14,male
-,434.2,80.2,792000,Yes,,0.000548232,0.000101263,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,144.4,0.269356487,14,male
-2.192,,,792000,Yes,2.77E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,14,2.2,14,male
-,664.6,122.7,792000,Yes,,0.000839141,0.000154924,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,14,2.2,14,male
-1.995,,,792000,Yes,2.52E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,94.5,0.369048182,13,male
-,604.7,111.7,792000,Yes,,0.00076351,0.000141035,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,94.5,0.369048182,13,male
-2.015,,,792000,Yes,2.54E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,13,2.2,13,male
-,610.8,112.8,792000,Yes,,0.000771212,0.000142424,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,13,2.2,13,male
-0.962,,,792000,Yes,1.21E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,275,1.032079053,42,male
-,291.6,53.8,792000,Yes,,0.000368182,6.79E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,275,1.032079053,42,male
-0.992,,,792000,Yes,1.25E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,253,0.919836382,34,male
-,300.7,55.5,792000,Yes,,0.000379672,7.01E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,253,0.919836382,34,male
-3.193,,,792000,Yes,4.03E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,34,5.6,34,male
-,968,178.7,792000,Yes,,0.001222222,0.000225631,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,34,5.6,34,male
-1.131,,,792000,Yes,1.43E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ag,211.1,1.308074656,25.6,male
-,343,63.3,792000,Yes,,0.000433081,7.99E-05,constant,5,8,1820,Yeh/Schum Symmetric,Ag,211.1,1.308074656,25.6,male
-3.153,,,792000,Yes,3.98E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ag,25.6,8.34,25.6,male
-,955.7,176.5,792000,Yes,,0.001206692,0.000222854,constant,5,8,1820,Yeh/Schum Symmetric,Ag,25.6,8.34,25.6,male
-0.2836,,,792000,Yes,3.58E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Ag,211.1,1.308074656,25.6,male
-0.7902,,,792000,Yes,9.98E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Ag,25.6,8.34,25.6,male
-1.411,,,792000,Yes,1.78E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Al2O3,150.9,1.29788882,28.2,male
-,427.7,79,792000,Yes,,0.000540025,9.97E-05,constant,5,8,1820,Yeh/Schum Symmetric,Al2O3,150.9,1.29788882,28.2,male
-3.198,,,792000,Yes,4.04E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Al2O3,28.2,3.59,28.2,male
-,969.4,179,792000,Yes,,0.00122399,0.00022601,constant,5,8,1820,Yeh/Schum Symmetric,Al2O3,28.2,3.59,28.2,male
-0.3536,,,792000,Yes,4.46E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Al2O3,150.9,1.29788882,28.2,male
-0.8014,,,792000,Yes,1.01E-06,,,constant,1,6,1,Yeh/Schum Symmetric,Al2O3,28.2,3.59,28.2,male
-1.061,,,792000,Yes,1.34E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,219.3,0.424117875,10.5,male
-,321.8,59.4,792000,Yes,,0.000406313,7.50E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,219.3,0.424117875,10.5,male
-1.475,,,792000,Yes,1.86E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,10.5,7.2,10.5,male
-,447,82.5,792000,Yes,,0.000564394,0.000104167,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,10.5,7.2,10.5,male
-0.266,,,792000,Yes,3.36E-07,,,constant,1,6,1,Yeh/Schum Symmetric,CeO2,219.3,0.424117875,10.5,male
-0.3695,,,792000,Yes,4.67E-07,,,constant,1,6,1,Yeh/Schum Symmetric,CeO2,10.5,7.2,10.5,male
-0.8599,,,792000,Yes,1.09E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,336.3,0.88825126,34.8,male
-,260.7,48.1,792000,Yes,,0.000329167,6.07E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,336.3,0.88825126,34.8,male
-3.186,,,792000,Yes,4.02E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,34.8,7.2,34.8,male
-,965.8,178.3,792000,Yes,,0.001219444,0.000225126,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,34.8,7.2,34.8,male
-0.2155,,,792000,Yes,2.72E-07,,,constant,1,6,1,Yeh/Schum Symmetric,CeO2,336.3,0.88825126,34.8,male
-0.7985,,,792000,Yes,1.01E-06,,,constant,1,6,1,Yeh/Schum Symmetric,CeO2,34.8,7.2,34.8,male
-0.7836,,,792000,Yes,9.89E-07,,,constant,1,24,1,Yeh/Schum Symmetric,CuO,341.9,0.259156808,50.2,male
-,237.5,43.9,792000,Yes,,0.000299874,5.54E-05,constant,5,8,1820,Yeh/Schum Symmetric,CuO,341.9,0.259156808,50.2,male
-2.886,,,792000,Yes,3.64E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CuO,50.2,6.153,50.2,male
-,874.9,161.5,792000,Yes,,0.001104672,0.000203914,constant,5,8,1820,Yeh/Schum Symmetric,CuO,50.2,6.153,50.2,male
-0.1964,,,792000,Yes,2.48E-07,,,constant,1,6,1,Yeh/Schum Symmetric,CuO,341.9,0.259156808,50.2,male
-0.7233,,,792000,Yes,9.13E-07,,,constant,1,6,1,Yeh/Schum Symmetric,CuO,50.2,6.153,50.2,male
-1.204,,,792000,Yes,1.52E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,181.5,0.267104218,9.9,male
-,364.9,67.4,792000,Yes,,0.000460732,8.51E-05,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,181.5,0.267104218,9.9,male
-1.327,,,792000,Yes,1.68E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,9.9,5.24,9.9,male
-,402.1,74.3,792000,Yes,,0.000507702,9.38E-05,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,9.9,5.24,9.9,male
-0.3017,,,792000,Yes,3.81E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Fe2O3,181.5,0.267104218,9.9,male
-0.3325,,,792000,Yes,4.20E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Fe2O3,9.9,5.24,9.9,male
-1.857,,,792000,Yes,2.34E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,2408.9,0.611515037,108.9,male
-,563,104,792000,Yes,,0.000710859,0.000131313,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,2408.9,0.611515037,108.9,male
-1.828,,,792000,Yes,2.31E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,108.9,5.24,108.9,male
-,554.2,102.3,792000,Yes,,0.000699747,0.000129167,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,108.9,5.24,108.9,male
-0.4655,,,792000,Yes,5.88E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Fe2O3,2408.9,0.611515037,108.9,male
-0.4582,,,792000,Yes,5.79E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Fe2O3,108.9,5.24,108.9,male
-3.082,,,792000,Yes,3.89E-06,,,constant,1,24,1,Yeh/Schum Symmetric,MgO,40.9,0.168972577,23.8,male
-,934.3,172.5,792000,Yes,,0.001179672,0.000217803,constant,5,8,1820,Yeh/Schum Symmetric,MgO,40.9,0.168972577,23.8,male
-3.097,,,792000,Yes,3.91E-06,,,constant,1,24,1,Yeh/Schum Symmetric,MgO,23.8,3.14,23.8,male
-,938.9,173.4,792000,Yes,,0.00118548,0.000218939,constant,5,8,1820,Yeh/Schum Symmetric,MgO,23.8,3.14,23.8,male
-0.7724,,,792000,Yes,9.75E-07,,,constant,1,6,1,Yeh/Schum Symmetric,MgO,40.9,0.168972577,23.8,male
-0.7763,,,792000,Yes,9.80E-07,,,constant,1,6,1,Yeh/Schum Symmetric,MgO,23.8,3.14,23.8,male
-1.645,,,792000,Yes,2.08E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,120,0.230430397,15,male
-,498.7,92.1,792000,Yes,,0.000629672,0.000116288,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,120,0.230430397,15,male
-2.352,,,792000,Yes,2.97E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,15,2.2,15,male
-,712.8,131.6,792000,Yes,,0.0009,0.000166162,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,15,2.2,15,male
-0.4123,,,792000,Yes,5.21E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Amorphous SiO2,120,0.230430397,15,male
-0.5893,,,792000,Yes,7.44E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Amorphous SiO2,15,2.2,15,male
-0.781,,,792000,Yes,9.86E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,389.7,0.660496614,113.4,male
-,236.7,43.7,792000,Yes,,0.000298864,5.52E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,389.7,0.660496614,113.4,male
-1.769,,,792000,Yes,2.23E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,113.4,4.2,113.4,male
-,536.3,99,792000,Yes,,0.000677146,0.000125,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,113.4,4.2,113.4,male
-0.1957,,,792000,Yes,2.47E-07,,,constant,1,6,1,Yeh/Schum Symmetric,TiO2,389.7,0.660496614,113.4,male
-0.4434,,,792000,Yes,5.60E-07,,,constant,1,6,1,Yeh/Schum Symmetric,TiO2,113.4,4.2,113.4,male
-0.8282,,,792000,Yes,1.05E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,342.3,0.660496614,28.8,male
-,251.1,46.4,792000,Yes,,0.000317045,5.86E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,342.3,0.660496614,28.8,male
-3.203,,,792000,Yes,4.04E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,28.8,4.2,28.8,male
-,971.1,179.3,792000,Yes,,0.001226136,0.000226389,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,28.8,4.2,28.8,male
-0.2076,,,792000,Yes,2.62E-07,,,constant,1,6,1,Yeh/Schum Symmetric,TiO2,342.3,0.660496614,28.8,male
-0.8028,,,792000,Yes,1.01E-06,,,constant,1,6,1,Yeh/Schum Symmetric,TiO2,28.8,4.2,28.8,male
-2.696,,,792000,Yes,3.40E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,57.8,0.660833188,45.7,male
-,817.1,150.9,792000,Yes,,0.001031692,0.00019053,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,57.8,0.660833188,45.7,male
-2.989,,,792000,Yes,3.77E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,45.7,5.6,45.7,male
-,905.9,167.3,792000,Yes,,0.001143813,0.000211237,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,45.7,5.6,45.7,male
-0.6755,,,792000,Yes,8.53E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,57.8,0.660833188,45.7,male
-0.749,,,792000,Yes,9.46E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,45.7,5.6,45.7,male
-0.0874,,,792000,Yes,1.10E-07,,,constant,1,2,1,Yeh/Schum Symmetric,Amorphous SiO2,220,0.160511218,12,male
-,317,58.5,792000,Yes,,0.000400253,7.39E-05,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,220,0.160511218,12,male
-0.1517,,,792000,Yes,1.92E-07,,,constant,1,2,1,Yeh/Schum Symmetric,Amorphous SiO2,12,2.2,12,male
-0.1748,,,792000,Yes,2.21E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Amorphous SiO2,220,0.160511218,12,male
-0.3033,,,792000,Yes,3.83E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Amorphous SiO2,12,2.2,12,male
-0.2621,,,792000,Yes,3.31E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Amorphous SiO2,220,0.160511218,12,male
-0.636,,,792000,Yes,8.03E-07,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,1330,0.217467219,36,male
-,192.8,35.6,792000,Yes,,0.000243434,4.49E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,1330,0.217467219,36,male
-3.171,,,792000,Yes,4.00E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,36,5.6,36,male
-,961.3,177.5,792000,Yes,,0.001213763,0.000224116,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,36,5.6,36,male
-0.0266,,,792000,Yes,3.36E-08,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,1330,0.217467219,36,male
-0.1326,,,792000,Yes,1.67E-07,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,36,5.6,36,male
-0.0532,,,792000,Yes,6.72E-08,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,1330,0.217467219,36,male
-0.2651,,,792000,Yes,3.35E-07,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,36,5.6,36,male
-0.1063,,,792000,Yes,1.34E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,1330,0.217467219,36,male
-0.53,,,792000,Yes,6.69E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,36,5.6,36,male
-0.1594,,,792000,Yes,2.01E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,1330,0.217467219,36,male
-0.7948,,,792000,Yes,1.00E-06,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,36,5.6,36,male
-2.342,,,792000,Yes,2.96E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,75,2.892711623,36,male
-,710,131.1,792000,Yes,,0.000896465,0.00016553,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,75,2.892711623,36,male
-0.0979,,,792000,Yes,1.24E-07,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,75,2.892711623,36,male
-0.1958,,,792000,Yes,2.47E-07,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,75,2.892711623,36,male
-0.3915,,,792000,Yes,4.94E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,75,2.892711623,36,male
-0.587,,,792000,Yes,7.41E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,75,2.892711623,36,male
-0.9134,,,792000,Yes,1.15E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,1320,0.449213167,80,male
-,276.9,51.1,792000,Yes,,0.000349621,6.45E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,1320,0.449213167,80,male
-2.271,,,792000,Yes,2.87E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,80,5.6,80,male
-,688.3,127.1,792000,Yes,,0.000869066,0.00016048,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,80,5.6,80,male
-0.0382,,,792000,Yes,4.82E-08,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,1320,0.449213167,80,male
-0.0949,,,792000,Yes,1.20E-07,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,80,5.6,80,male
-0.0763,,,792000,Yes,9.63E-08,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,1320,0.449213167,80,male
-0.1898,,,792000,Yes,2.40E-07,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,80,5.6,80,male
-0.1526,,,792000,Yes,1.93E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,1320,0.449213167,80,male
-0.3795,,,792000,Yes,4.79E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,80,5.6,80,male
-0.2289,,,792000,Yes,2.89E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,1320,0.449213167,80,male
-0.569,,,792000,Yes,7.18E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,80,5.6,80,male
-2.109,,,792000,Yes,2.66E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,90,5.036754195,80,male
-,639.3,118.1,792000,Yes,,0.000807197,0.000149116,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,90,5.036754195,80,male
-0.0882,,,792000,Yes,1.11E-07,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,90,5.036754195,80,male
-0.1763,,,792000,Yes,2.23E-07,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,90,5.036754195,80,male
-0.3525,,,792000,Yes,4.45E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,90,5.036754195,80,male
-0.5286,,,792000,Yes,6.67E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,90,5.036754195,80,male
-1.419,,,792000,Yes,1.79E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,1290,1.046126693,200,male
-,430.2,79.4,792000,Yes,,0.000543182,0.000100253,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,1290,1.046126693,200,male
-1.33,,,792000,Yes,1.68E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,200,5.6,200,male
-,403,74.4,792000,Yes,,0.000508838,9.39E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,200,5.6,200,male
-0.0593,,,792000,Yes,7.49E-08,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,1290,1.046126693,200,male
-0.0556,,,792000,Yes,7.02E-08,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,200,5.6,200,male
-0.1186,,,792000,Yes,1.50E-07,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,1290,1.046126693,200,male
-0.1111,,,792000,Yes,1.40E-07,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,200,5.6,200,male
-0.2372,,,792000,Yes,2.99E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,1290,1.046126693,200,male
-0.2222,,,792000,Yes,2.81E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,200,5.6,200,male
-0.3556,,,792000,Yes,4.49E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,1290,1.046126693,200,male
-0.3332,,,792000,Yes,4.21E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,200,5.6,200,male
-1.086,,,792000,Yes,1.37E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,460,2.646262817,200,male
-,329.2,60.8,792000,Yes,,0.000415657,7.68E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,460,2.646262817,200,male
-0.0454,,,792000,Yes,5.73E-08,,,constant,1,1,1,Yeh/Schum Symmetric,ZnO,460,2.646262817,200,male
-0.0908,,,792000,Yes,1.15E-07,,,constant,1,2,1,Yeh/Schum Symmetric,ZnO,460,2.646262817,200,male
-0.1815,,,792000,Yes,2.29E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,460,2.646262817,200,male
-0.2722,,,792000,Yes,3.44E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,460,2.646262817,200,male
-1.047,,,792000,Yes,1.32E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,229,0.754620122,34,male
-,317.4,58.6,792000,Yes,,0.000400758,7.40E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,229,0.754620122,34,male
-3.193,,,792000,Yes,4.03E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,34,4.2,34,male
-,967.8,178.7,792000,Yes,,0.00122197,0.000225631,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,34,4.2,34,male
-1.751,,,792000,Yes,2.21E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,111,1.019576775,25,male
-,530.9,98,792000,Yes,,0.000670328,0.000123737,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,111,1.019576775,25,male
-3.137,,,792000,Yes,3.96E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,25,3.9,25,male
-,950.9,175.6,792000,Yes,,0.001200631,0.000221717,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,25,3.9,25,male
-3.142,,,792000,Yes,3.97E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Crystalline SiO2,37.8,1.561351265,21,male
-,952.5,175.9,792000,Yes,,0.001202652,0.000222096,constant,5,8,1820,Yeh/Schum Symmetric,Crystalline SiO2,37.8,1.561351265,21,male
-2.962,,,792000,Yes,3.74E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Crystalline SiO2,21,2.65,21,male
-,897.8,165.8,792000,Yes,,0.001133586,0.000209343,constant,5,8,1820,Yeh/Schum Symmetric,Crystalline SiO2,21,2.65,21,male
-9.366,,,792000,Yes,1.18E-05,,,constant,1,72,1,Yeh/Schum Symmetric,Crystalline SiO2,37.8,1.561351265,21,male
-8.828,,,792000,Yes,1.11E-05,,,constant,1,72,1,Yeh/Schum Symmetric,Crystalline SiO2,21,2.65,21,male
-2.433,,,792000,Yes,3.07E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Crystalline SiO2,70.12,2.303160919,60,male
-,737.6,136.2,792000,Yes,,0.000931313,0.00017197,constant,5,8,1820,Yeh/Schum Symmetric,Crystalline SiO2,70.12,2.303160919,60,male
-2.653,,,792000,Yes,3.35E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Crystalline SiO2,60,2.65,60,male
-,804.1,148.5,792000,Yes,,0.001015278,0.0001875,constant,5,8,1820,Yeh/Schum Symmetric,Crystalline SiO2,60,2.65,60,male
-7.253,,,792000,Yes,9.16E-06,,,constant,1,72,1,Yeh/Schum Symmetric,Crystalline SiO2,70.12,2.303160919,60,male
-7.907,,,792000,Yes,9.98E-06,,,constant,1,72,1,Yeh/Schum Symmetric,Crystalline SiO2,60,2.65,60,male
-1.833,,,792000,Yes,2.31E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Crystalline SiO2,105.5,2.525333037,100,male
-,555.5,102.6,792000,Yes,,0.000701389,0.000129545,constant,5,8,1820,Yeh/Schum Symmetric,Crystalline SiO2,105.5,2.525333037,100,male
-1.946,,,792000,Yes,2.46E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Crystalline SiO2,100,2.65,100,male
-,589.8,108.9,792000,Yes,,0.000744697,0.0001375,constant,5,8,1820,Yeh/Schum Symmetric,Crystalline SiO2,100,2.65,100,male
-5.462,,,792000,Yes,6.90E-06,,,constant,1,72,1,Yeh/Schum Symmetric,Crystalline SiO2,105.5,2.525333037,100,male
-5.799,,,792000,Yes,7.32E-06,,,constant,1,72,1,Yeh/Schum Symmetric,Crystalline SiO2,100,2.65,100,male
-1.213,,,792000,Yes,1.53E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Crystalline SiO2,203.3,2.611254667,200,male
-,367.7,67.9,792000,Yes,,0.000464268,8.57E-05,constant,5,8,1820,Yeh/Schum Symmetric,Crystalline SiO2,203.3,2.611254667,200,male
-1.216,,,792000,Yes,1.54E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Crystalline SiO2,200,2.65,200,male
-,368.6,68.1,792000,Yes,,0.000465404,8.60E-05,constant,5,8,1820,Yeh/Schum Symmetric,Crystalline SiO2,200,2.65,200,male
-3.616,,,792000,Yes,4.57E-06,,,constant,1,72,1,Yeh/Schum Symmetric,Crystalline SiO2,203.3,2.611254667,200,male
-3.625,,,792000,Yes,4.58E-06,,,constant,1,72,1,Yeh/Schum Symmetric,Crystalline SiO2,200,2.65,200,male
-0.8192,,,792000,Yes,1.03E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CuO,391.85,0.945316161,48.89,male
-,248.3,45.9,792000,Yes,,0.00031351,5.80E-05,constant,5,8,1820,Yeh/Schum Symmetric,CuO,391.85,0.945316161,48.89,male
-2.919,,,792000,Yes,3.69E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CuO,48.89,6.153,48.89,male
-,884.7,163.4,792000,Yes,,0.001117045,0.000206313,constant,5,8,1820,Yeh/Schum Symmetric,CuO,48.89,6.153,48.89,male
-0.1661,,,792000,Yes,2.10E-07,,,constant,1,3,1,Yeh/Schum Symmetric,TiO2,170,2.200284484,90,male
-,401.5,74.1,792000,Yes,,0.000506944,9.36E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,170,2.200284484,90,male
-0.263,,,792000,Yes,3.32E-07,,,constant,1,3,1,Yeh/Schum Symmetric,TiO2,90,3.9,90,male
-,636,117.4,792000,Yes,,0.00080303,0.000148232,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,90,3.9,90,male
-1.325,,,792000,Yes,1.67E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,170,2.200284484,90,male
-2.098,,,792000,Yes,2.65E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,90,3.9,90,male
-0.1497,,,792000,Yes,1.89E-07,,,constant,1,3,1,Yeh/Schum Symmetric,ZnO,193,1.41941964,42,male
-,361.9,66.8,792000,Yes,,0.000456944,8.43E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,193,1.41941964,42,male
-0.3844,,,792000,Yes,4.85E-07,,,constant,1,3,1,Yeh/Schum Symmetric,ZnO,42,5.6,42,male
-1.194,,,792000,Yes,1.51E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,193,1.41941964,42,male
-0.2711,,,792000,Yes,3.42E-07,,,constant,1,3,1,Yeh/Schum Symmetric,CeO2,86,4.339706537,49,male
-0.3658,,,792000,Yes,4.62E-07,,,constant,1,3,1,Yeh/Schum Symmetric,CeO2,49,7.2,49,male
-0.3156,,,792000,Yes,3.98E-07,,,constant,1,3,1,Yeh/Schum Symmetric,Ag,66,2.198156665,15,male
-,763.2,140.9,792000,Yes,,0.000963636,0.000177904,constant,5,8,1820,Yeh/Schum Symmetric,Ag,66,2.198156665,15,male
-0.2947,,,792000,Yes,3.72E-07,,,constant,1,3,1,Yeh/Schum Symmetric,Ag,15,8.34,15,male
-,712.7,131.6,792000,Yes,,0.000899874,0.000166162,constant,5,8,1820,Yeh/Schum Symmetric,Ag,15,8.34,15,male
-2.518,,,792000,Yes,3.18E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ag,66,2.198156665,15,male
-2.351,,,792000,Yes,2.97E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ag,15,8.34,15,male
-3.467,,,792000,Yes,4.38E-06,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,188.8,0.135068501,4.5,male
-,352.6,65.1,792000,Yes,,0.000445202,8.22E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,188.8,0.135068501,4.5,male
-0.2213,,,792000,Yes,2.79E-07,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,4.5,3.9,4.5,male
-,22.5,4.157,792000,Yes,,2.84E-05,5.25E-06,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,4.5,3.9,4.5,male
-3.088,,,792000,Yes,3.90E-06,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,222.7,0.155334861,6.2,male
-,314,58,792000,Yes,,0.000396465,7.32E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,222.7,0.155334861,6.2,male
-1.101,,,792000,Yes,1.39E-06,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,6.2,3.9,6.2,male
-,111.9,20.7,792000,Yes,,0.000141288,2.61E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,6.2,3.9,6.2,male
-3.045,,,792000,Yes,3.84E-06,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,232.4,0.476887964,22.5,male
-,309.7,57.2,792000,Yes,,0.000391035,7.22E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,232.4,0.476887964,22.5,male
-9.076,,,792000,Yes,1.15E-05,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,22.5,3.9,22.5,male
-,923,170.4,792000,Yes,,0.001165404,0.000215152,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,22.5,3.9,22.5,male
-2.398,,,792000,Yes,3.03E-06,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,344,0.467472235,30,male
-,243.8,45,792000,Yes,,0.000307828,5.68E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,344,0.467472235,30,male
-9.567,,,792000,Yes,1.21E-05,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,30,4.2,30,male
-,973,179.7,792000,Yes,,0.001228535,0.000226894,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,30,4.2,30,male
-0.1198,,,792000,Yes,1.51E-07,,,constant,1,4,1,Yeh/Schum Symmetric,TiO2,400,0.283349398,20,male
-,217.2,40.1,792000,Yes,,0.000274242,5.06E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,400,0.283349398,20,male
-0.4836,,,792000,Yes,6.11E-07,,,constant,1,4,1,Yeh/Schum Symmetric,TiO2,20,4.2,20,male
-,877.1,162,792000,Yes,,0.001107449,0.000204545,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,20,4.2,20,male
-0.7166,,,792000,Yes,9.05E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,400,0.283349398,20,male
-2.893,,,792000,Yes,3.65E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,20,4.2,20,male
-0.0623,,,792000,Yes,7.87E-08,,,constant,1,4,1,Yeh/Schum Symmetric,TiO2,2102,0.033495257,9.8,male
-,112.9,20.9,792000,Yes,,0.000142551,2.64E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,2102,0.033495257,9.8,male
-0.2175,,,792000,Yes,2.75E-07,,,constant,1,4,1,Yeh/Schum Symmetric,TiO2,9.8,4.2,9.8,male
-,394.5,72.8,792000,Yes,,0.000498106,9.19E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,9.8,4.2,9.8,male
-0.1866,,,792000,Yes,2.36E-07,,,constant,1,12,1,Yeh/Schum Symmetric,TiO2,2102,0.033495257,9.8,male
-0.6517,,,792000,Yes,8.23E-07,,,constant,1,12,1,Yeh/Schum Symmetric,TiO2,9.8,4.2,9.8,male
-0.3726,,,792000,Yes,4.70E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,2102,0.033495257,9.8,male
-1.301,,,792000,Yes,1.64E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,9.8,4.2,9.8,male
-0.7427,,,792000,Yes,9.38E-07,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,2102,0.033495257,9.8,male
-2.594,,,792000,Yes,3.28E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,9.8,4.2,9.8,male
-0.0801,,,792000,Yes,1.01E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Fe2O3,1239,0.111568788,17.2,male
-,145.3,26.8,792000,Yes,,0.00018346,3.38E-05,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,1239,0.111568788,17.2,male
-0.4409,,,792000,Yes,5.57E-07,,,constant,1,4,1,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,male
-,799.6,147.7,792000,Yes,,0.001009596,0.00018649,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,male
-0.2401,,,792000,Yes,3.03E-07,,,constant,1,12,1,Yeh/Schum Symmetric,Fe2O3,1239,0.111568788,17.2,male
-1.321,,,792000,Yes,1.67E-06,,,constant,1,12,1,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,male
-0.4794,,,792000,Yes,6.05E-07,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,1239,0.111568788,17.2,male
-2.638,,,792000,Yes,3.33E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,male
-0.9556,,,792000,Yes,1.21E-06,,,constant,1,48,1,Yeh/Schum Symmetric,Fe2O3,1239,0.111568788,17.2,male
-5.259,,,792000,Yes,6.64E-06,,,constant,1,48,1,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,male
-0.1001,,,792000,Yes,1.26E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,1680,0.139200715,27.7,male
-,181.6,33.5,792000,Yes,,0.000229293,4.23E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,1680,0.139200715,27.7,male
-0.5335,,,792000,Yes,6.74E-07,,,constant,1,4,1,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,male
-,967.6,178.7,792000,Yes,,0.001221717,0.000225631,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,male
-0.3001,,,792000,Yes,3.79E-07,,,constant,1,12,1,Yeh/Schum Symmetric,ZnO,1680,0.139200715,27.7,male
-1.599,,,792000,Yes,2.02E-06,,,constant,1,12,1,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,male
-0.5992,,,792000,Yes,7.57E-07,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,1680,0.139200715,27.7,male
-3.192,,,792000,Yes,4.03E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,male
-1.195,,,792000,Yes,1.51E-06,,,constant,1,48,1,Yeh/Schum Symmetric,ZnO,1680,0.139200715,27.7,male
-6.363,,,792000,Yes,8.03E-06,,,constant,1,48,1,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,male
-0.7113,,,792000,Yes,8.98E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,396,0.22070174,15,male
-,215.6,39.8,792000,Yes,,0.000272222,5.03E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,396,0.22070174,15,male
-2.351,,,792000,Yes,2.97E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,15,4.2,15,male
-,712.8,131.6,792000,Yes,,0.0009,0.000166162,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,15,4.2,15,male
-2.112,,,792000,Yes,2.67E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ag,90,5.353948788,55,male
-,640.3,118.2,792000,Yes,,0.00080846,0.000149242,constant,5,8,1820,Yeh/Schum Symmetric,Ag,90,5.353948788,55,male
-2.783,,,792000,Yes,3.51E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ag,55,8.34,55,male
-,843.7,155.8,792000,Yes,,0.001065278,0.000196717,constant,5,8,1820,Yeh/Schum Symmetric,Ag,55,8.34,55,male
-1.154,,,792000,Yes,1.46E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,192,0.274365699,19,male
-,349.7,64.6,792000,Yes,,0.00044154,8.16E-05,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,192,0.274365699,19,male
-2.814,,,792000,Yes,3.55E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,19,2.2,19,male
-,852.9,157.5,792000,Yes,,0.001076894,0.000198864,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,19,2.2,19,male
-3.162,,,792000,Yes,3.99E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,26,2.123697596,25,male
-,958.6,177,792000,Yes,,0.001210354,0.000223485,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,26,2.123697596,25,male
-3.137,,,792000,Yes,3.96E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,25,2.2,25,male
-,950.9,175.6,792000,Yes,,0.001200631,0.000221717,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,25,2.2,25,male
-6.304,,,792000,Yes,7.96E-06,,,constant,1,48,1,Yeh/Schum Symmetric,Amorphous SiO2,26,2.123697596,25,male
-6.253,,,792000,Yes,7.90E-06,,,constant,1,48,1,Yeh/Schum Symmetric,Amorphous SiO2,25,2.2,25,male
-3.101,,,792000,Yes,3.92E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Amorphous SiO2,40,2.2,40,male
-,940.1,173.6,792000,Yes,,0.001186995,0.000219192,constant,5,8,1820,Yeh/Schum Symmetric,Amorphous SiO2,40,2.2,40,male
-6.183,,,792000,Yes,7.81E-06,,,constant,1,48,1,Yeh/Schum Symmetric,Amorphous SiO2,40,2.2,40,male
-1.871,,,792000,Yes,2.36E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,101,0.977883346,20,male
-,567.2,104.7,792000,Yes,,0.000716162,0.000132197,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,101,0.977883346,20,male
-3.73,,,792000,Yes,4.71E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,101,0.977883346,20,male
-5.768,,,792000,Yes,7.28E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,20,4.2,20,male
-0.106,,,792000,Yes,1.34E-07,,,constant,1,3,1,Yeh/Schum Symmetric,TiO2,318,0.513017306,21,male
-,256.4,47.3,792000,Yes,,0.000323737,5.97E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,318,0.513017306,21,male
-0.3713,,,792000,Yes,4.69E-07,,,constant,1,3,1,Yeh/Schum Symmetric,TiO2,21,4.2,21,male
-,897.8,165.8,792000,Yes,,0.001133586,0.000209343,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,21,4.2,21,male
-0.8459,,,792000,Yes,1.07E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,318,0.513017306,21,male
-2.962,,,792000,Yes,3.74E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,21,4.2,21,male
-0.0956,,,792000,Yes,1.21E-07,,,constant,1,3,1,Yeh/Schum Symmetric,TiO2,567,0.79576412,8,male
-,231.2,42.7,792000,Yes,,0.000291919,5.39E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,567,0.79576412,8,male
-0.1037,,,792000,Yes,1.31E-07,,,constant,1,3,1,Yeh/Schum Symmetric,TiO2,8,3.9,8,male
-,250.8,46.3,792000,Yes,,0.000316667,5.85E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,8,3.9,8,male
-0.7626,,,792000,Yes,9.63E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,567,0.79576412,8,male
-0.8275,,,792000,Yes,1.04E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,8,3.9,8,male
-0.1185,,,792000,Yes,1.50E-07,,,constant,1,3,1,Yeh/Schum Symmetric,TiO2,286,1.065697674,100,male
-,286.5,52.9,792000,Yes,,0.000361742,6.68E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,286,1.065697674,100,male
-0.2458,,,792000,Yes,3.10E-07,,,constant,1,3,1,Yeh/Schum Symmetric,TiO2,100,3.9,100,male
-,594.4,109.8,792000,Yes,,0.000750505,0.000138636,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,100,3.9,100,male
-0.9452,,,792000,Yes,1.19E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,286,1.065697674,100,male
-1.961,,,792000,Yes,2.48E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,100,3.9,100,male
-0.1333,,,792000,Yes,1.68E-07,,,constant,1,3,1,Yeh/Schum Symmetric,CeO2,233,1.267468011,29,male
-,322.3,59.5,792000,Yes,,0.000406944,7.51E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,233,1.267468011,29,male
-0.4018,,,792000,Yes,5.07E-07,,,constant,1,3,1,Yeh/Schum Symmetric,CeO2,29,7.2,29,male
-,971.6,179.4,792000,Yes,,0.001226768,0.000226515,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,29,7.2,29,male
-1.063,,,792000,Yes,1.34E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,233,1.267468011,29,male
-3.205,,,792000,Yes,4.05E-06,,,constant,1,24,1,Yeh/Schum Symmetric,CeO2,29,7.2,29,male
-1.052,,,792000,Yes,1.33E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CeO2,940,0.173779907,15,male
-,159.9,29.5,792000,Yes,,0.000201894,3.72E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,940,0.173779907,15,male
-4.687,,,792000,Yes,5.92E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CeO2,15,7.2,15,male
-,712.7,131.6,792000,Yes,,0.000899874,0.000166162,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,15,7.2,15,male
-1.029,,,792000,Yes,1.30E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CeO2,1072,0.154397165,15,male
-,156.4,28.9,792000,Yes,,0.000197475,3.65E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,1072,0.154397165,15,male
-1.056,,,792000,Yes,1.33E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CeO2,1833,0.095272686,15,male
-,160.6,29.7,792000,Yes,,0.000202778,3.75E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,1833,0.095272686,15,male
-1.34,,,792000,Yes,1.69E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CuO,672,0.485633415,40,male
-,203.8,37.6,792000,Yes,,0.000257323,4.75E-05,constant,5,8,1820,Yeh/Schum Symmetric,CuO,672,0.485633415,40,male
-6.191,,,792000,Yes,7.82E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CuO,40,6.153,40,male
-,941.3,173.8,792000,Yes,,0.00118851,0.000219444,constant,5,8,1820,Yeh/Schum Symmetric,CuO,40,6.153,40,male
-1.32,,,792000,Yes,1.67E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CuO,815,0.408224494,40,male
-,200.8,37.1,792000,Yes,,0.000253535,4.68E-05,constant,5,8,1820,Yeh/Schum Symmetric,CuO,815,0.408224494,40,male
-1.337,,,792000,Yes,1.69E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CuO,1131,0.303965688,40,male
-,203.4,37.6,792000,Yes,,0.000256818,4.75E-05,constant,5,8,1820,Yeh/Schum Symmetric,CuO,1131,0.303965688,40,male
-1.366,,,792000,Yes,1.72E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CeO2,642,0.525063962,35,male
-,207.7,38.4,792000,Yes,,0.000262247,4.85E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,642,0.525063962,35,male
-6.347,,,792000,Yes,8.01E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CeO2,35,7.2,35,male
-,965.2,178.2,792000,Yes,,0.001218687,0.000225,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,35,7.2,35,male
-1.357,,,792000,Yes,1.71E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CeO2,1116,0.319224313,35,male
-,206.3,38.1,792000,Yes,,0.00026048,4.81E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,1116,0.319224313,35,male
-1.452,,,792000,Yes,1.83E-06,,,constant,1,48,1,Yeh/Schum Symmetric,CeO2,1470,0.249119736,35,male
-,220.8,40.8,792000,Yes,,0.000278788,5.15E-05,constant,5,8,1820,Yeh/Schum Symmetric,CeO2,1470,0.249119736,35,male
-1.327,,,792000,Yes,1.68E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ag,168.57,2.026399326,35,male
-,402.2,74.3,792000,Yes,,0.000507828,9.38E-05,constant,5,8,1820,Yeh/Schum Symmetric,Ag,168.57,2.026399326,35,male
-3.185,,,792000,Yes,4.02E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ag,35,8.34,35,male
-,965.4,178.3,792000,Yes,,0.001218939,0.000225126,constant,5,8,1820,Yeh/Schum Symmetric,Ag,35,8.34,35,male
-0.3325,,,792000,Yes,4.20E-07,,,constant,1,6,1,Yeh/Schum Symmetric,Ag,168.57,2.026399326,35,male
-0.7981,,,792000,Yes,1.01E-06,,,constant,1,6,1,Yeh/Schum Symmetric,Ag,35,8.34,35,male
-1.177,,,792000,Yes,1.49E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,191.57,0.815417571,31,male
-,356.7,65.9,792000,Yes,,0.000450379,8.32E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,191.57,0.815417571,31,male
-3.208,,,792000,Yes,4.05E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,31,4.2,31,male
-,972.4,179.6,792000,Yes,,0.001227778,0.000226768,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,31,4.2,31,male
-0.2949,,,792000,Yes,3.72E-07,,,constant,1,6,1,Yeh/Schum Symmetric,TiO2,191.57,0.815417571,31,male
-0.8039,,,792000,Yes,1.02E-06,,,constant,1,6,1,Yeh/Schum Symmetric,TiO2,31,4.2,31,male
-2.083,,,792000,Yes,2.63E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,89.92,2.209796794,32,male
-,631.3,116.6,792000,Yes,,0.000797096,0.000147222,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,89.92,2.209796794,32,male
-3.206,,,792000,Yes,4.05E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,32,5.6,32,male
-,971.8,179.5,792000,Yes,,0.00122702,0.000226641,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,32,5.6,32,male
-0.5219,,,792000,Yes,6.59E-07,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,89.92,2.209796794,32,male
-0.8035,,,792000,Yes,1.01E-06,,,constant,1,6,1,Yeh/Schum Symmetric,ZnO,32,5.6,32,male
-1.394,,,792000,Yes,1.76E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,150,0.34086505,10,male
-,422.5,78,792000,Yes,,0.00053346,9.85E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,150,0.34086505,10,male
-1.352,,,792000,Yes,1.71E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,10,3.9,10,male
-,409.8,75.7,792000,Yes,,0.000517424,9.56E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,10,3.9,10,male
-2.524,,,792000,Yes,3.19E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,65.3,0.386114177,5,male
-,765.1,141.3,792000,Yes,,0.000966035,0.000178409,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,65.3,0.386114177,5,male
-0.1382,,,792000,Yes,1.74E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,5,3.9,5,male
-,41.9,7.738,792000,Yes,,5.29E-05,9.77E-06,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,5,3.9,5,male
-5.031,,,792000,Yes,6.35E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,65.3,0.386114177,5,male
-0.2756,,,792000,Yes,3.48E-07,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,5,3.9,5,male
-7.523,,,792000,Yes,9.50E-06,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,65.3,0.386114177,5,male
-0.412,,,792000,Yes,5.20E-07,,,constant,1,72,1,Yeh/Schum Symmetric,TiO2,5,3.9,5,male
-0.4082,,,792000,Yes,5.15E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,3641,0.020804184,10,male
-,123.7,22.8,792000,Yes,,0.000156187,2.88E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,3641,0.020804184,10,male
-1.352,,,792000,Yes,1.71E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,10,4.2,10,male
-,409.7,75.7,792000,Yes,,0.000517298,9.56E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,10,4.2,10,male
-0.825,,,792000,Yes,1.04E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,1562,0.285444174,85.5,male
-,250.1,46.2,792000,Yes,,0.000315783,5.83E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,1562,0.285444174,85.5,male
-2.167,,,792000,Yes,2.74E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,85.5,3.9,85.5,male
-,656.9,121.3,792000,Yes,,0.000829419,0.000153157,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,85.5,3.9,85.5,male
-0.6804,,,792000,Yes,8.59E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,848,0.427983062,72.8,male
-,206.2,38.1,792000,Yes,,0.000260354,4.81E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,848,0.427983062,72.8,male
-2.39,,,792000,Yes,3.02E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,72.8,3.9,72.8,male
-,724.6,133.8,792000,Yes,,0.000914899,0.000168939,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,72.8,3.9,72.8,male
-2.408,,,792000,Yes,3.04E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,182.6,0.532894094,20,male
-,366.1,67.6,792000,Yes,,0.000462247,8.54E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,182.6,0.532894094,20,male
-5.768,,,792000,Yes,7.28E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,20,3.9,20,male
-,877.1,162,792000,Yes,,0.001107449,0.000204545,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,20,3.9,20,male
-2.696,,,792000,Yes,3.40E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,157.4,0.655951956,20,male
-,409.9,75.7,792000,Yes,,0.000517551,9.56E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,157.4,0.655951956,20,male
-2.633,,,792000,Yes,3.32E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,162.4,0.637747646,20,male
-,400.4,73.9,792000,Yes,,0.000505556,9.33E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,162.4,0.637747646,20,male
-2.365,,,792000,Yes,2.99E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,186.4,0.451925991,17,male
-,359.7,66.4,792000,Yes,,0.000454167,8.38E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,186.4,0.451925991,17,male
-5.214,,,792000,Yes,6.58E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,17,3.9,17,male
-2.549,,,792000,Yes,3.22E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,169.6,0.613328327,20,male
-,387.5,71.6,792000,Yes,,0.000489268,9.04E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,169.6,0.613328327,20,male
-2.198,,,792000,Yes,2.78E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,208.6,0.472725173,20,male
-,334.2,61.7,792000,Yes,,0.00042197,7.79E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,208.6,0.472725173,20,male
-2.537,,,792000,Yes,3.20E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,170.6,0.610091764,20,male
-,385.8,71.2,792000,Yes,,0.000487121,8.99E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,170.6,0.610091764,20,male
-2.482,,,792000,Yes,3.13E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,212.4,3.978663643,200,male
-,377.5,69.7,792000,Yes,,0.000476641,8.80E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,212.4,3.978663643,200,male
-2.545,,,792000,Yes,3.21E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,200,4.2,200,male
-,387,71.5,792000,Yes,,0.000488636,9.03E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,200,4.2,200,male
-2.689,,,792000,Yes,3.40E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,157.4,0.526216402,17,male
-,408.9,75.5,792000,Yes,,0.000516288,9.53E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,157.4,0.526216402,17,male
-0.6277,,,559000,Yes,1.12E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,900,0.624668911,17,female
-,190.3,35.1,559000,Yes,,0.000340429,6.28E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,900,0.624668911,17,female
-2.078,,,559000,Yes,3.72E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,17,4.2,17,female
-,629.8,116.3,559000,Yes,,0.001126655,0.00020805,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,17,4.2,17,female
-0.7007,,,559000,Yes,1.25E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,300,0.624668911,17,female
-,212.4,39.2,559000,Yes,,0.000379964,7.01E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,300,0.624668911,17,female
-1.432,,,792000,Yes,1.81E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,160,4.23,160,male
-,434,80.1,792000,Yes,,0.00054798,0.000101136,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,160,4.23,160,male
-0.785,,,792000,Yes,9.91E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,327,2.223081448,160,male
-,238,43.9,792000,Yes,,0.000300505,5.54E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,327,2.223081448,160,male
-0.785,,,559000,Yes,1.40E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,327,2.223081448,160,female
-,238,43.9,559000,Yes,,0.00042576,7.85E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,327,2.223081448,160,female
-1.135,,,559000,Yes,2.03E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,160,4.23,160,female
-,343.9,63.5,559000,Yes,,0.000615206,0.000113596,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,160,4.23,160,female
-1.002,,,792000,Yes,1.27E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,786,1.167352829,188,male
-,303.6,56.1,792000,Yes,,0.000383333,7.08E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,786,1.167352829,188,male
-1.315,,,792000,Yes,1.66E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,188,4.23,188,male
-,398.6,73.6,792000,Yes,,0.000503283,9.29E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,188,4.23,188,male
-0.7719,,,559000,Yes,1.38E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,786,1.167352829,188,female
-,234,43.2,559000,Yes,,0.000418605,7.73E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,786,1.167352829,188,female
-1.039,,,559000,Yes,1.86E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,188,4.23,188,female
-,315,58.2,559000,Yes,,0.000563506,0.000104114,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,188,4.23,188,female
-1.041,,,792000,Yes,1.31E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,298,2.4576191,163,male
-,315.4,58.2,792000,Yes,,0.000398232,7.35E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,298,2.4576191,163,male
-1.417,,,792000,Yes,1.79E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,163,4.23,163,male
-,429.5,79.3,792000,Yes,,0.000542298,0.000100126,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,163,4.23,163,male
-0.8174,,,559000,Yes,1.46E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,298,2.4576191,163,female
-,247.8,45.8,559000,Yes,,0.000443292,8.19E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,298,2.4576191,163,female
-1.122,,,559000,Yes,2.01E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,163,4.23,163,female
-,340.3,62.8,559000,Yes,,0.000608766,0.000112343,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,163,4.23,163,female
-1.048,,,792000,Yes,1.32E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,253,1.809022095,72,male
-,317.6,58.7,792000,Yes,,0.00040101,7.41E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,253,1.809022095,72,male
-2.416,,,792000,Yes,3.05E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,72,5.606,72,male
-,732.3,135.2,792000,Yes,,0.000924621,0.000170707,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,72,5.606,72,male
-0.8276,,,559000,Yes,1.48E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,253,1.809022095,72,female
-,250.9,46.3,559000,Yes,,0.000448837,8.28E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,253,1.809022095,72,female
-1.929,,,559000,Yes,3.45E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,72,5.606,72,female
-,584.7,108,559000,Yes,,0.001045975,0.000193202,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,72,5.606,72,female
-1.262,,,792000,Yes,1.59E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,246,5.421069916,237,male
-,382.5,70.6,792000,Yes,,0.000482955,8.91E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,246,5.421069916,237,male
-1.279,,,792000,Yes,1.61E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,237,5.606,237,male
-,387.7,71.6,792000,Yes,,0.00048952,9.04E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,237,5.606,237,male
-0.99,,,559000,Yes,1.77E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,246,5.421069916,237,female
-,300.1,55.4,559000,Yes,,0.000536852,9.91E-05,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,246,5.421069916,237,female
-1.004,,,559000,Yes,1.80E-06,,,constant,1,24,1,Yeh/Schum Symmetric,ZnO,237,5.606,237,female
-,304.4,56.2,559000,Yes,,0.000544544,0.000100537,constant,5,8,1820,Yeh/Schum Symmetric,ZnO,237,5.606,237,female
-0.5013,,,792000,Yes,6.33E-07,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,1249,0.128257482,19.3,male
-,152,28.1,792000,Yes,,0.000191919,3.55E-05,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,1249,0.128257482,19.3,male
-2.839,,,792000,Yes,3.58E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,19.3,5.47,19.3,male
-,860.4,158.9,792000,Yes,,0.001086364,0.000200631,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,19.3,5.47,19.3,male
-0.3895,,,559000,Yes,6.97E-07,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,1249,0.128257482,19.3,female
-,118.1,21.8,559000,Yes,,0.00021127,3.90E-05,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,1249,0.128257482,19.3,female
-2.264,,,559000,Yes,4.05E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Fe2O3,19.3,5.47,19.3,female
-,686.2,126.7,559000,Yes,,0.001227549,0.000226655,constant,5,8,1820,Yeh/Schum Symmetric,Fe2O3,19.3,5.47,19.3,female
-1.058,,,792000,Yes,1.34E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,946,0.997431561,192,male
-,320.7,59.2,792000,Yes,,0.000404924,7.47E-05,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,946,0.997431561,192,male
-1.3,,,792000,Yes,1.64E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,192,4.19,192,male
-,394.2,72.8,792000,Yes,,0.000497727,9.19E-05,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,192,4.19,192,male
-0.8139,,,559000,Yes,1.46E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,946,0.997431561,192,female
-,246.7,45.6,559000,Yes,,0.000441324,8.16E-05,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,946,0.997431561,192,female
-1.027,,,559000,Yes,1.84E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,192,4.19,192,female
-,311.5,57.5,559000,Yes,,0.000557245,0.000102862,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,192,4.19,192,female
-2.005,,,792000,Yes,2.53E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,1087,3.161825146,795,male
-,607.9,112.2,792000,Yes,,0.000767551,0.000141667,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,1087,3.161825146,795,male
-1.849,,,792000,Yes,2.33E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,795,4.19,795,male
-,560.6,103.5,792000,Yes,,0.000707828,0.000130682,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,795,4.19,795,male
-1.591,,,559000,Yes,2.85E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,1087,3.161825146,795,female
-,482.4,89.1,559000,Yes,,0.00086297,0.000159392,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,1087,3.161825146,795,female
-1.451,,,559000,Yes,2.60E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,795,4.19,795,female
-,439.8,81.2,559000,Yes,,0.000786762,0.000145259,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,795,4.19,795,female
-1.81,,,792000,Yes,2.29E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,1248,1.862636288,507,male
-,548.7,101.3,792000,Yes,,0.000692803,0.000127904,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,1248,1.862636288,507,male
-1.376,,,792000,Yes,1.74E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,507,4.19,507,male
-,417,77,792000,Yes,,0.000526515,9.72E-05,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,507,4.19,507,male
-1.42,,,559000,Yes,2.54E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,1248,1.862636288,507,female
-,430.4,79.5,559000,Yes,,0.000769946,0.000142218,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,1248,1.862636288,507,female
-1.066,,,559000,Yes,1.91E-06,,,constant,1,24,1,Yeh/Schum Symmetric,Ti4O7,507,4.19,507,female
-,323.1,59.7,559000,Yes,,0.000577996,0.000106798,constant,5,8,1820,Yeh/Schum Symmetric,Ti4O7,507,4.19,507,female
-0.5423,,,792000,Yes,6.85E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,824,0.191675427,30,male
-,164.4,30.4,792000,Yes,,0.000207576,3.84E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,824,0.191675427,30,male
-3.21,,,792000,Yes,4.05E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,30,3.78,30,male
-,973,179.7,792000,Yes,,0.001228535,0.000226894,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,30,3.78,30,male
-0.4246,,,559000,Yes,7.60E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,824,0.191675427,30,female
-,128.7,23.8,559000,Yes,,0.000230233,4.26E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,824,0.191675427,30,female
-2.574,,,559000,Yes,4.60E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,30,3.78,30,female
-,780.2,144.1,559000,Yes,,0.001395707,0.000257782,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,30,3.78,30,female
-2.269,,,792000,Yes,2.86E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,78,0.318918462,5,male
-,687.8,127,792000,Yes,,0.000868434,0.000160354,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,78,0.318918462,5,male
-0.1382,,,792000,Yes,1.74E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,5,3.78,5,male
-,41.9,7.738,792000,Yes,,5.29E-05,9.77E-06,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,5,3.78,5,male
-1.812,,,559000,Yes,3.24E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,78,0.318918462,5,female
-,549.3,101.4,559000,Yes,,0.000982648,0.000181395,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,78,0.318918462,5,female
-0.0937,,,559000,Yes,1.68E-07,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,5,3.78,5,female
-,28.4,5.244,559000,Yes,,5.08E-05,9.38E-06,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,5,3.78,5,female
-1.095,,,792000,Yes,1.38E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,259,2.742070169,160,male
-,332,61.3,792000,Yes,,0.000419192,7.74E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,259,2.742070169,160,male
-0.8625,,,559000,Yes,1.54E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,259,2.742070169,160,female
-,261.4,48.3,559000,Yes,,0.000467621,8.64E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,259,2.742070169,160,female
-1.514,,,792000,Yes,1.91E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,149,5.214525435,188,male
-,459,84.8,792000,Yes,,0.000579545,0.000107071,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,149,5.214525435,188,male
-1.2,,,559000,Yes,2.15E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,149,5.214525435,188,female
-,363.9,67.2,559000,Yes,,0.000650984,0.000120215,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,149,5.214525435,188,female
-0.9293,,,792000,Yes,1.17E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,452,1.689213797,163,male
-,281.7,52,792000,Yes,,0.000355682,6.57E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,452,1.689213797,163,male
-0.7244,,,559000,Yes,1.30E-06,,,constant,1,24,1,Yeh/Schum Symmetric,TiO2,452,1.689213797,163,female
-,219.6,40.6,559000,Yes,,0.000392844,7.26E-05,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,452,1.689213797,163,female
-,564.6,104.4,792000,Yes,,0.000712879,0.000131818,constant,5,8,1820,Yeh/Schum Symmetric,TiO2,101,0.524035,20,male
-3.72,,,792000,Yes,4.70E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,101,0.524035,20,male
-1.352,,,792000,Yes,1.71E-06,,,constant,1,48,1,Yeh/Schum Symmetric,TiO2,10,4.2,10,male
+Alveolar_retention_five_mg,Alveolar_retention_h_mg,Alveolar_retention_w_mg,Alveolar_retention_y_mg,Alveolar_surface_cm2,Clearance,Deposited_per_area_five_mg/cm2,Deposited_per_area_h_mg/cm2,Deposited_per_area_w_mg/cm2,Deposited_per_area_y_mg/cm2,Exposure,Exposure_time_d,Exposure_time_h,Exposure_time_w,Lung_Model,Substance,agg_diameter_nm,density_g/cm2,pp_diameter_nm,sex
+0.08800000000000001,,,,792000.0,Yes,,1.11e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,MgO,852.2,0.16897257699999998,46.66,man
+,0.8686,159.7,29.5,792000.0,Yes,1.1e-06,,0.000201641,3.72e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,MgO,852.2,0.16897257699999998,46.66,man
+0.4952,,,,792000.0,Yes,,6.25e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,MgO,46.66,3.14,46.66,man
+,4.886,898.2,165.9,792000.0,Yes,6.17e-06,,0.001134091,0.00020947,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,MgO,46.66,3.14,46.66,man
+0.5268,,,,792000.0,Yes,,6.65e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,MgO,852.2,0.16897257699999998,46.66,man
+2.963,,,,792000.0,Yes,,3.74e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,MgO,46.66,3.14,46.66,man
+0.0889,,,,792000.0,Yes,,1.12e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,MgO,852.2,0.17704224,46.66,man
+,0.8769,161.2,29.8,792000.0,Yes,1.11e-06,,0.000203535,3.76e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,MgO,852.2,0.17704224,46.66,man
+0.5318,,,,792000.0,Yes,,6.709999999999999e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,MgO,852.2,0.17704224,46.66,man
+0.1335,,,,792000.0,Yes,,1.69e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,842.6,0.647970299,61.24,man
+,1.317,242.1,44.7,792000.0,Yes,1.66e-06,,0.000305682,5.6399999999999995e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,842.6,0.647970299,61.24,man
+0.4411,,,,792000.0,Yes,,5.57e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,61.24,6.155,61.24,man
+,4.351,800.0,147.7,792000.0,Yes,5.49e-06,,0.001010101,0.00018649,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,61.24,6.155,61.24,man
+0.7985,,,,792000.0,Yes,,1.01e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,842.6,0.647970299,61.24,man
+2.639,,,,792000.0,Yes,,3.33e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,61.24,6.155,61.24,man
+0.134,,,,792000.0,Yes,,1.69e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,842.6,0.654171909,61.24,man
+,1.3219999999999998,243.0,44.9,792000.0,Yes,1.67e-06,,0.000306818,5.67e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,842.6,0.654171909,61.24,man
+0.8018,,,,792000.0,Yes,,1.01e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,842.6,0.654171909,61.24,man
+0.1258,,,,792000.0,Yes,,1.59e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,TiO2,569.3,0.7582928940000001,103.2,man
+,1.2409999999999999,228.2,42.1,792000.0,Yes,1.57e-06,,0.000288131,5.3200000000000006e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,569.3,0.7582928940000001,103.2,man
+0.3135,,,,792000.0,Yes,,3.96e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,TiO2,103.2,3.78,103.2,man
+,3.093,568.6,105.0,792000.0,Yes,3.91e-06,,0.000717929,0.000132576,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,103.2,3.78,103.2,man
+0.7527,,,,792000.0,Yes,,9.5e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,569.3,0.7582928940000001,103.2,man
+1.876,,,,792000.0,Yes,,2.37e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,103.2,3.78,103.2,man
+0.1261,,,,792000.0,Yes,,1.59e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,TiO2,569.3,0.764607624,103.2,man
+,1.244,228.7,42.2,792000.0,Yes,1.57e-06,,0.000288763,5.3299999999999995e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,569.3,0.764607624,103.2,man
+0.7544,,,,792000.0,Yes,,9.53e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,569.3,0.764607624,103.2,man
+0.1175,,,,792000.0,Yes,,1.48e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,CuO,418.6,0.259156808,70.9,man
+,1.16,213.2,39.4,792000.0,Yes,1.46e-06,,0.000269192,4.970000000000001e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,418.6,0.259156808,70.9,man
+0.4078,,,,792000.0,Yes,,5.15e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,CuO,70.9,6.153,70.9,man
+,4.023,739.6,136.6,792000.0,Yes,5.08e-06,,0.000933838,0.000172475,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,70.9,6.153,70.9,man
+0.7033,,,,792000.0,Yes,,8.88e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,418.6,0.259156808,70.9,man
+2.44,,,,792000.0,Yes,,3.08e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,70.9,6.153,70.9,man
+0.1177,,,,792000.0,Yes,,1.49e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,CuO,418.6,0.26579659699999997,70.9,man
+,1.161,213.5,39.4,792000.0,Yes,1.47e-06,,0.00026957099999999997,4.970000000000001e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,418.6,0.26579659699999997,70.9,man
+0.7043,,,,792000.0,Yes,,8.890000000000001e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,418.6,0.26579659699999997,70.9,man
+0.1404,,,,792000.0,Yes,,1.7699999999999998e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Fe2O3,308.0,0.27833174,10.25,man
+,1.385,254.6,47.0,792000.0,Yes,1.75e-06,,0.000321465,5.93e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,308.0,0.27833174,10.25,man
+0.2363,,,,792000.0,Yes,,2.98e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Fe2O3,10.25,4.4830000000000005,10.25,man
+,2.331,428.6,79.1,792000.0,Yes,2.94e-06,,0.000541162,9.990000000000002e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,10.25,4.4830000000000005,10.25,man
+0.8399,,,,792000.0,Yes,,1.06e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,308.0,0.27833174,10.25,man
+1.4140000000000001,,,,792000.0,Yes,,1.79e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,10.25,4.4830000000000005,10.25,man
+0.1405,,,,792000.0,Yes,,1.7699999999999998e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Fe2O3,308.0,0.285342744,10.25,man
+,1.386,254.8,47.0,792000.0,Yes,1.75e-06,,0.000321717,5.93e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,308.0,0.285342744,10.25,man
+0.8405,,,,792000.0,Yes,,1.06e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,308.0,0.285342744,10.25,man
+0.1597,,,,792000.0,Yes,,2.0199999999999998e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,CeO2,268.4,0.88825126,27.92,man
+,1.5759999999999998,289.7,53.5,792000.0,Yes,1.99e-06,,0.000365783,6.759999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,268.4,0.88825126,27.92,man
+0.534,,,,792000.0,Yes,,6.74e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,CeO2,27.92,7.2,27.92,man
+,5.268,968.5,178.8,792000.0,Yes,6.65e-06,,0.001222854,0.000225758,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,27.92,7.2,27.92,man
+0.9556,,,,792000.0,Yes,,1.21e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,268.4,0.88825126,27.92,man
+3.195,,,,792000.0,Yes,,4.03e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,27.92,7.2,27.92,man
+0.1598,,,,792000.0,Yes,,2.0199999999999998e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,CeO2,268.4,0.894160183,27.92,man
+,1.5759999999999998,289.8,53.5,792000.0,Yes,1.99e-06,,0.00036590900000000004,6.759999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,268.4,0.894160183,27.92,man
+0.956,,,,792000.0,Yes,,1.21e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,268.4,0.894160183,27.92,man
+0.2032,,,,792000.0,Yes,,2.57e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Al2O3,186.8,1.297337387,32.63,man
+,2.005,368.5,68.0,792000.0,Yes,2.53e-06,,0.000465278,8.590000000000001e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Al2O3,186.8,1.297337387,32.63,man
+0.5352,,,,792000.0,Yes,,6.76e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Al2O3,32.63,3.5939,32.63,man
+,5.28,970.7,179.2,792000.0,Yes,6.67e-06,,0.001225631,0.00022626299999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Al2O3,32.63,3.5939,32.63,man
+1.216,,,,792000.0,Yes,,1.54e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Al2O3,186.8,1.297337387,32.63,man
+3.202,,,,792000.0,Yes,,4.04e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Al2O3,32.63,3.5939,32.63,man
+0.2032,,,,792000.0,Yes,,2.57e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Al2O3,186.8,1.3024816590000001,32.63,man
+,2.005,368.6,68.1,792000.0,Yes,2.53e-06,,0.000465404,8.6e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Al2O3,186.8,1.3024816590000001,32.63,man
+1.216,,,,792000.0,Yes,,1.54e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Al2O3,186.8,1.3024816590000001,32.63,man
+1.005,,,,792000.0,Yes,,1.27e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,232.0,0.153019443,12.0,man
+,1.6569999999999998,304.6,56.2,792000.0,Yes,2.09e-06,,0.00038459599999999996,7.099999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,232.0,0.153019443,12.0,man
+1.815,,,,792000.0,Yes,,2.29e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,12.0,2.2,12.0,man
+,2.992,550.1,101.6,792000.0,Yes,3.78e-06,,0.0006945710000000001,0.000128283,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,12.0,2.2,12.0,man
+0.3236,,,,792000.0,Yes,,4.0899999999999997e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,2245.0,0.019842258,12.0,man
+,0.5335,98.1,18.1,792000.0,Yes,6.74e-07,,0.000123864,2.2899999999999998e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,2245.0,0.019842258,12.0,man
+2.859,,,,792000.0,Yes,,3.61e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,51.0,2.3547019469999997,55.0,man
+,4.7139999999999995,866.6,160.0,792000.0,Yes,5.95e-06,,0.001094192,0.00020202,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,51.0,2.3547019469999997,55.0,man
+2.765,,,,792000.0,Yes,,3.49e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,55.0,2.2,55.0,man
+,4.56,838.2,154.8,792000.0,Yes,5.76e-06,,0.001058333,0.000195455,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,55.0,2.2,55.0,man
+1.849,,,,792000.0,Yes,,2.33e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,103.0,1.250822253,55.0,man
+,3.049,560.6,103.5,792000.0,Yes,3.85e-06,,0.0007078280000000001,0.00013068200000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,103.0,1.250822253,55.0,man
+0.5337,,,,792000.0,Yes,,6.74e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12.0,man
+,0.88,161.8,29.9,792000.0,Yes,1.11e-06,,0.000204293,3.78e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12.0,man
+0.1338,,,,792000.0,Yes,,1.69e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12.0,man
+0.4548,,,,792000.0,Yes,,5.74e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,12.0,2.2,12.0,man
+0.9696,,,,792000.0,Yes,,1.22e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12.0,man
+,1.599,293.9,54.3,792000.0,Yes,2.02e-06,,0.00037108599999999996,6.86e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12.0,man
+0.243,,,,792000.0,Yes,,3.07e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12.0,man
+0.9696,,,,792000.0,Yes,,1.22e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12.0,man
+,1.599,293.9,54.3,792000.0,Yes,2.02e-06,,0.00037108599999999996,6.86e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12.0,man
+0.243,,,,792000.0,Yes,,3.07e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,243.3,0.146608079,12.0,man
+0.5337,,,,792000.0,Yes,,6.74e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12.0,man
+,0.88,161.8,29.9,792000.0,Yes,1.11e-06,,0.000204293,3.78e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12.0,man
+0.1338,,,,792000.0,Yes,,1.69e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,610.1,0.064095107,12.0,man
+0.9846,,,,792000.0,Yes,,1.24e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,261.0,1.081772487,42.0,man
+,1.6230000000000002,298.5,55.1,792000.0,Yes,2.05e-06,,0.000376894,6.96e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,261.0,1.081772487,42.0,man
+3.0660000000000003,,,,792000.0,Yes,,3.87e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,42.0,5.6,42.0,man
+,5.056,929.5,171.6,792000.0,Yes,6.38e-06,,0.001173611,0.000216667,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,42.0,5.6,42.0,man
+6.795,,,,792000.0,Yes,,8.58e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,CuO,78.0,1.802828484,19.94,man
+,3.759,691.0,127.6,792000.0,Yes,4.75e-06,,0.000872475,0.000161111,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,78.0,1.802828484,19.94,man
+8.61,,,,792000.0,Yes,,1.09e-05,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,CuO,19.94,6.153,19.94,man
+,4.763,875.7,161.7,792000.0,Yes,6.01e-06,,0.001105682,0.000204167,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,19.94,6.153,19.94,man
+2.1630000000000003,,,,792000.0,Yes,,2.73e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,86.0,4.339706537,49.0,man
+,3.5660000000000003,655.6,121.1,792000.0,Yes,4.5e-06,,0.000827778,0.00015290399999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,86.0,4.339706537,49.0,man
+2.918,,,,792000.0,Yes,,3.68e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,49.0,7.2,49.0,man
+,4.812,884.6,163.3,792000.0,Yes,6.08e-06,,0.0011169189999999999,0.000206187,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,49.0,7.2,49.0,man
+1.02,,,,792000.0,Yes,,1.29e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,229.0,0.245187171,20.0,man
+,1.681,309.1,57.1,792000.0,Yes,2.12e-06,,0.00039027800000000003,7.209999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,229.0,0.245187171,20.0,man
+2.8939999999999997,,,,792000.0,Yes,,3.65e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,20.0,2.2,20.0,man
+,4.771,877.1,162.0,792000.0,Yes,6.02e-06,,0.001107449,0.000204545,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,20.0,2.2,20.0,man
+0.1278,,,,792000.0,Yes,,1.6100000000000003e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,229.0,0.245187171,20.0,man
+0.3627,,,,792000.0,Yes,,4.5799999999999995e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,20.0,2.2,20.0,man
+3.216,,,,792000.0,Yes,,4.06e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,124.0,0.663804986,15.84,man
+,2.66,489.0,90.3,792000.0,Yes,3.36e-06,,0.000617424,0.000114015,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,124.0,0.663804986,15.84,man
+4.925,,,,792000.0,Yes,,6.22e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,15.84,4.23,15.84,man
+,4.074,748.9,138.3,792000.0,Yes,5.14e-06,,0.000945581,0.000174621,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,15.84,4.23,15.84,man
+2.53,,,,792000.0,Yes,,3.19e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,172.0,0.7345941090000001,24.59,man
+,2.093,384.7,71.0,792000.0,Yes,2.64e-06,,0.00048573199999999995,8.96e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,172.0,0.7345941090000001,24.59,man
+6.229,,,,792000.0,Yes,,7.86e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,24.59,4.23,24.59,man
+,5.152,947.1,174.9,792000.0,Yes,6.51e-06,,0.001195833,0.000220833,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,24.59,4.23,24.59,man
+1.55,,,,792000.0,Yes,,1.96e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,486.0,0.8508356890000001,81.8,man
+,1.2819999999999998,235.8,43.5,792000.0,Yes,1.62e-06,,0.000297727,5.489999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,486.0,0.8508356890000001,81.8,man
+4.445,,,,792000.0,Yes,,5.61e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,81.8,4.23,81.8,man
+,3.677,675.9,124.8,792000.0,Yes,4.64e-06,,0.000853409,0.000157576,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,81.8,4.23,81.8,man
+0.8274,,,,792000.0,Yes,,1.04e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,900.0,0.6477886110000001,17.0,man
+,1.364,250.8,46.3,792000.0,Yes,1.72e-06,,0.000316667,5.85e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,900.0,0.6477886110000001,17.0,man
+2.615,,,,792000.0,Yes,,3.3e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,17.0,3.78,17.0,man
+,4.312,792.8,146.4,792000.0,Yes,5.44e-06,,0.00100101,0.000184848,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,17.0,3.78,17.0,man
+1.12,,,,792000.0,Yes,,1.41e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,1350.0,0.6248699289999999,17.0,man
+,1.8459999999999999,339.4,62.7,792000.0,Yes,2.33e-06,,0.000428535,7.92e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,1350.0,0.6248699289999999,17.0,man
+0.7605,,,,792000.0,Yes,,9.6e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,670.0,0.727255065,17.0,man
+,1.254,230.5,42.6,792000.0,Yes,1.58e-06,,0.000291035,5.379999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,670.0,0.727255065,17.0,man
+0.9907,,,,792000.0,Yes,,1.25e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,1140.0,0.660553434,17.0,man
+,1.6340000000000001,300.3,55.5,792000.0,Yes,2.06e-06,,0.00037916699999999997,7.01e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,1140.0,0.660553434,17.0,man
+0.807,,,,792000.0,Yes,,1.02e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,630.0,0.9033143640000001,117.0,man
+,1.331,244.6,45.2,792000.0,Yes,1.68e-06,,0.00030883799999999997,5.7100000000000006e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,630.0,0.9033143640000001,117.0,man
+1.7280000000000002,,,,792000.0,Yes,,2.18e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,117.0,3.78,117.0,man
+,2.8489999999999998,523.9,96.7,792000.0,Yes,3.6e-06,,0.00066149,0.000122096,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,117.0,3.78,117.0,man
+0.9449,,,,792000.0,Yes,,1.19e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,880.0,0.884869208,117.0,man
+,1.558,286.4,52.9,792000.0,Yes,1.97e-06,,0.000361616,6.68e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,880.0,0.884869208,117.0,man
+0.8802,,,,792000.0,Yes,,1.11e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,690.0,1.041695603,117.0,man
+,1.4509999999999998,266.8,49.3,792000.0,Yes,1.83e-06,,0.000336869,6.22e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,690.0,1.041695603,117.0,man
+1.057,,,,792000.0,Yes,,1.33e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,1010.0,0.900123225,117.0,man
+,1.742,320.3,59.1,792000.0,Yes,2.2e-06,,0.000404419,7.46e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,1010.0,0.900123225,117.0,man
+1.48,,,,792000.0,Yes,,1.87e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,140.0,0.8876717390000001,24.7,man
+,2.44,448.5,82.8,792000.0,Yes,3.08e-06,,0.0005662880000000001,0.000104545,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,140.0,0.8876717390000001,24.7,man
+3.128,,,,792000.0,Yes,,3.95e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,24.7,4.23,24.7,man
+,5.1579999999999995,948.2,175.1,792000.0,Yes,6.51e-06,,0.001197222,0.00022108599999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,24.7,4.23,24.7,man
+1.48,,,,792000.0,Yes,,1.87e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,140.0,0.8876717390000001,24.7,man
+,2.44,448.5,82.8,792000.0,Yes,3.08e-06,,0.0005662880000000001,0.000104545,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,140.0,0.8876717390000001,24.7,man
+0.0618,,,,792000.0,Yes,,7.8e-08,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,TiO2,140.0,0.8876717390000001,24.7,man
+0.1307,,,,792000.0,Yes,,1.65e-07,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,TiO2,24.7,4.23,24.7,man
+1.34,,,,792000.0,Yes,,1.69e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,160.0,0.795753195,25.0,man
+,2.209,406.2,75.0,792000.0,Yes,2.79e-06,,0.000512879,9.470000000000001e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,160.0,0.795753195,25.0,man
+3.137,,,,792000.0,Yes,,3.96e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,25.0,4.23,25.0,man
+,5.172000000000001,950.9,175.6,792000.0,Yes,6.53e-06,,0.001200631,0.00022171700000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,25.0,4.23,25.0,man
+1.34,,,,792000.0,Yes,,1.69e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,160.0,0.795753195,25.0,man
+,2.209,406.2,75.0,792000.0,Yes,2.79e-06,,0.000512879,9.470000000000001e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,160.0,0.795753195,25.0,man
+0.055999999999999994,,,,792000.0,Yes,,7.07e-08,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,TiO2,160.0,0.795753195,25.0,man
+0.1311,,,,792000.0,Yes,,1.66e-07,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,TiO2,25.0,4.23,25.0,man
+1.433,,,,792000.0,Yes,,1.81e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,144.4,0.269356487,14.0,man
+,2.362,434.2,80.2,792000.0,Yes,2.98e-06,,0.000548232,0.000101263,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,144.4,0.269356487,14.0,man
+2.1919999999999997,,,,792000.0,Yes,,2.77e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,14.0,2.2,14.0,man
+,3.615,664.6,122.7,792000.0,Yes,4.56e-06,,0.0008391410000000001,0.000154924,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,14.0,2.2,14.0,man
+1.433,,,,792000.0,Yes,,1.81e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,144.4,0.269356487,14.0,man
+,2.362,434.2,80.2,792000.0,Yes,2.98e-06,,0.000548232,0.000101263,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,144.4,0.269356487,14.0,man
+1.995,,,,792000.0,Yes,,2.52e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,94.5,0.369048182,13.0,man
+,3.2889999999999997,604.7,111.7,792000.0,Yes,4.15e-06,,0.00076351,0.000141035,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,94.5,0.369048182,13.0,man
+2.015,,,,792000.0,Yes,,2.54e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,13.0,2.2,13.0,man
+,3.323,610.8,112.8,792000.0,Yes,4.2e-06,,0.000771212,0.000142424,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,13.0,2.2,13.0,man
+1.995,,,,792000.0,Yes,,2.52e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,94.5,0.369048182,13.0,man
+,3.2889999999999997,604.7,111.7,792000.0,Yes,4.15e-06,,0.00076351,0.000141035,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,94.5,0.369048182,13.0,man
+0.9620000000000001,,,,792000.0,Yes,,1.21e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,275.0,1.032079053,42.0,man
+,1.5859999999999999,291.6,53.8,792000.0,Yes,2e-06,,0.000368182,6.790000000000001e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,275.0,1.032079053,42.0,man
+0.992,,,,792000.0,Yes,,1.25e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,253.0,0.9198363820000001,34.0,man
+,1.636,300.7,55.5,792000.0,Yes,2.07e-06,,0.00037967199999999995,7.01e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,253.0,0.9198363820000001,34.0,man
+3.193,,,,792000.0,Yes,,4.03e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,34.0,5.6,34.0,man
+,5.265,968.0,178.7,792000.0,Yes,6.65e-06,,0.001222222,0.00022563099999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,34.0,5.6,34.0,man
+1.131,,,,792000.0,Yes,,1.43e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Ag,211.1,1.3080746559999998,25.6,man
+,1.8659999999999999,343.0,63.3,792000.0,Yes,2.36e-06,,0.000433081,7.99e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Ag,211.1,1.3080746559999998,25.6,man
+3.153,,,,792000.0,Yes,,3.98e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Ag,25.6,8.34,25.6,man
+,5.199,955.7,176.5,792000.0,Yes,6.56e-06,,0.0012066919999999999,0.000222854,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Ag,25.6,8.34,25.6,man
+0.2836,,,,792000.0,Yes,,3.5799999999999995e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Ag,211.1,1.3080746559999998,25.6,man
+0.7902,,,,792000.0,Yes,,9.98e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Ag,25.6,8.34,25.6,man
+1.411,,,,792000.0,Yes,,1.78e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Al2O3,150.9,1.29788882,28.2,man
+,2.326,427.7,79.0,792000.0,Yes,2.94e-06,,0.000540025,9.97e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Al2O3,150.9,1.29788882,28.2,man
+3.198,,,,792000.0,Yes,,4.04e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Al2O3,28.2,3.59,28.2,man
+,5.273,969.4,179.0,792000.0,Yes,6.66e-06,,0.00122399,0.00022601,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Al2O3,28.2,3.59,28.2,man
+0.3536,,,,792000.0,Yes,,4.46e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Al2O3,150.9,1.29788882,28.2,man
+0.8014,,,,792000.0,Yes,,1.01e-06,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Al2O3,28.2,3.59,28.2,man
+1.061,,,,792000.0,Yes,,1.34e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,219.3,0.424117875,10.5,man
+,1.75,321.8,59.4,792000.0,Yes,2.21e-06,,0.00040631300000000005,7.5e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,219.3,0.424117875,10.5,man
+1.475,,,,792000.0,Yes,,1.86e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,10.5,7.2,10.5,man
+,2.431,447.0,82.5,792000.0,Yes,3.07e-06,,0.000564394,0.00010416700000000001,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,10.5,7.2,10.5,man
+0.266,,,,792000.0,Yes,,3.36e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,CeO2,219.3,0.424117875,10.5,man
+0.3695,,,,792000.0,Yes,,4.6700000000000004e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,CeO2,10.5,7.2,10.5,man
+0.8599,,,,792000.0,Yes,,1.09e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,336.3,0.88825126,34.8,man
+,1.4180000000000001,260.7,48.1,792000.0,Yes,1.79e-06,,0.00032916699999999995,6.07e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,336.3,0.88825126,34.8,man
+3.1860000000000004,,,,792000.0,Yes,,4.02e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,34.8,7.2,34.8,man
+,5.254,965.8,178.3,792000.0,Yes,6.63e-06,,0.0012194439999999999,0.00022512599999999997,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,34.8,7.2,34.8,man
+0.2155,,,,792000.0,Yes,,2.72e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,CeO2,336.3,0.88825126,34.8,man
+0.7985,,,,792000.0,Yes,,1.01e-06,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,CeO2,34.8,7.2,34.8,man
+0.7836,,,,792000.0,Yes,,9.89e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,341.9,0.259156808,50.2,man
+,1.2919999999999998,237.5,43.9,792000.0,Yes,1.63e-06,,0.000299874,5.539999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,341.9,0.259156808,50.2,man
+2.886,,,,792000.0,Yes,,3.64e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,50.2,6.153,50.2,man
+,4.7589999999999995,874.9,161.5,792000.0,Yes,6.01e-06,,0.001104672,0.00020391400000000003,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,50.2,6.153,50.2,man
+0.1964,,,,792000.0,Yes,,2.48e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,CuO,341.9,0.259156808,50.2,man
+0.7233,,,,792000.0,Yes,,9.13e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,CuO,50.2,6.153,50.2,man
+1.204,,,,792000.0,Yes,,1.52e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,181.5,0.267104218,9.9,man
+,1.985,364.9,67.4,792000.0,Yes,2.51e-06,,0.000460732,8.51e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,181.5,0.267104218,9.9,man
+1.327,,,,792000.0,Yes,,1.68e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,9.9,5.24,9.9,man
+,2.187,402.1,74.3,792000.0,Yes,2.76e-06,,0.000507702,9.379999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,9.9,5.24,9.9,man
+0.3017,,,,792000.0,Yes,,3.8100000000000004e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Fe2O3,181.5,0.267104218,9.9,man
+0.3325,,,,792000.0,Yes,,4.2e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Fe2O3,9.9,5.24,9.9,man
+1.857,,,,792000.0,Yes,,2.34e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,2408.9,0.611515037,108.9,man
+,3.062,563.0,104.0,792000.0,Yes,3.87e-06,,0.000710859,0.00013131299999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,2408.9,0.611515037,108.9,man
+1.828,,,,792000.0,Yes,,2.31e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,108.9,5.24,108.9,man
+,3.014,554.2,102.3,792000.0,Yes,3.81e-06,,0.000699747,0.00012916700000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,108.9,5.24,108.9,man
+0.4655,,,,792000.0,Yes,,5.88e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Fe2O3,2408.9,0.611515037,108.9,man
+0.4582,,,,792000.0,Yes,,5.79e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Fe2O3,108.9,5.24,108.9,man
+3.082,,,,792000.0,Yes,,3.89e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,MgO,40.9,0.16897257699999998,23.8,man
+,5.082,934.3,172.5,792000.0,Yes,6.42e-06,,0.0011796719999999999,0.000217803,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,MgO,40.9,0.16897257699999998,23.8,man
+3.097,,,,792000.0,Yes,,3.91e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,MgO,23.8,3.14,23.8,man
+,5.107,938.9,173.4,792000.0,Yes,6.45e-06,,0.00118548,0.00021893900000000003,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,MgO,23.8,3.14,23.8,man
+0.7724,,,,792000.0,Yes,,9.75e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,MgO,40.9,0.16897257699999998,23.8,man
+0.7763,,,,792000.0,Yes,,9.8e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,MgO,23.8,3.14,23.8,man
+1.645,,,,792000.0,Yes,,2.08e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,120.0,0.23043039699999998,15.0,man
+,2.713,498.7,92.1,792000.0,Yes,3.43e-06,,0.000629672,0.000116288,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,120.0,0.23043039699999998,15.0,man
+2.352,,,,792000.0,Yes,,2.97e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,15.0,2.2,15.0,man
+,3.877,712.8,131.6,792000.0,Yes,4.9e-06,,0.0009,0.000166162,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,15.0,2.2,15.0,man
+0.4123,,,,792000.0,Yes,,5.21e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,120.0,0.23043039699999998,15.0,man
+0.5893,,,,792000.0,Yes,,7.440000000000001e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,15.0,2.2,15.0,man
+0.7844,,,,792000.0,Yes,,9.9e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,389.7,0.6845927209999999,113.4,man
+,1.2930000000000001,237.8,43.9,792000.0,Yes,1.63e-06,,0.000300253,5.539999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,389.7,0.6845927209999999,113.4,man
+1.7630000000000001,,,,792000.0,Yes,,2.23e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,113.4,3.78,113.4,man
+,2.908,534.5,98.7,792000.0,Yes,3.67e-06,,0.0006748739999999999,0.000124621,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,113.4,3.78,113.4,man
+0.1966,,,,792000.0,Yes,,2.48e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,TiO2,389.7,0.6845927209999999,113.4,man
+0.4419,,,,792000.0,Yes,,5.58e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,TiO2,113.4,3.78,113.4,man
+0.8281,,,,792000.0,Yes,,1.05e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,342.3,0.6590160270000001,28.8,man
+,1.365,251.0,46.3,792000.0,Yes,1.72e-06,,0.00031691900000000003,5.85e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,342.3,0.6590160270000001,28.8,man
+3.2030000000000003,,,,792000.0,Yes,,4.04e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,28.8,4.23,28.8,man
+,5.282,971.1,179.3,792000.0,Yes,6.67e-06,,0.001226136,0.00022638900000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,28.8,4.23,28.8,man
+0.2075,,,,792000.0,Yes,,2.62e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,TiO2,342.3,0.6590160270000001,28.8,man
+0.8028,,,,792000.0,Yes,,1.01e-06,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,TiO2,28.8,4.23,28.8,man
+2.696,,,,792000.0,Yes,,3.4e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,57.8,0.660833188,45.7,man
+,4.445,817.1,150.9,792000.0,Yes,5.61e-06,,0.001031692,0.00019053,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,57.8,0.660833188,45.7,man
+2.989,,,,792000.0,Yes,,3.77e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,45.7,5.6,45.7,man
+,4.928,905.9,167.3,792000.0,Yes,6.22e-06,,0.001143813,0.000211237,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,45.7,5.6,45.7,man
+0.6755,,,,792000.0,Yes,,8.529999999999999e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,57.8,0.660833188,45.7,man
+0.7490000000000001,,,,792000.0,Yes,,9.459999999999999e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,45.7,5.6,45.7,man
+0.0874,,,,792000.0,Yes,,1.1e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,220.0,0.160511218,12.0,man
+,1.724,317.0,58.5,792000.0,Yes,2.18e-06,,0.00040025300000000005,7.390000000000001e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,220.0,0.160511218,12.0,man
+0.1517,,,,792000.0,Yes,,1.92e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,12.0,2.2,12.0,man
+0.1748,,,,792000.0,Yes,,2.21e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,220.0,0.160511218,12.0,man
+0.3033,,,,792000.0,Yes,,3.83e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,12.0,2.2,12.0,man
+0.2621,,,,792000.0,Yes,,3.3100000000000004e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,220.0,0.160511218,12.0,man
+0.636,,,,792000.0,Yes,,8.03e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,1330.0,0.217467219,36.0,man
+,1.0490000000000002,192.8,35.6,792000.0,Yes,1.32e-06,,0.00024343400000000003,4.49e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,1330.0,0.217467219,36.0,man
+3.1710000000000003,,,,792000.0,Yes,,4e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,36.0,5.6,36.0,man
+,5.229,961.3,177.5,792000.0,Yes,6.6e-06,,0.001213763,0.00022411599999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,36.0,5.6,36.0,man
+0.0266,,,,792000.0,Yes,,3.3599999999999996e-08,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,1330.0,0.217467219,36.0,man
+0.1326,,,,792000.0,Yes,,1.67e-07,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,36.0,5.6,36.0,man
+0.0532,,,,792000.0,Yes,,6.719999999999999e-08,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,1330.0,0.217467219,36.0,man
+0.2651,,,,792000.0,Yes,,3.35e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,36.0,5.6,36.0,man
+0.1063,,,,792000.0,Yes,,1.34e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,1330.0,0.217467219,36.0,man
+0.53,,,,792000.0,Yes,,6.690000000000001e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,36.0,5.6,36.0,man
+0.1594,,,,792000.0,Yes,,2.01e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,1330.0,0.217467219,36.0,man
+0.7948,,,,792000.0,Yes,,1e-06,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,36.0,5.6,36.0,man
+2.342,,,,792000.0,Yes,,2.96e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,75.0,2.8927116230000003,36.0,man
+,3.862,710.0,131.1,792000.0,Yes,4.88e-06,,0.000896465,0.00016553,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,75.0,2.8927116230000003,36.0,man
+0.0979,,,,792000.0,Yes,,1.24e-07,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,75.0,2.8927116230000003,36.0,man
+0.1958,,,,792000.0,Yes,,2.47e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,75.0,2.8927116230000003,36.0,man
+0.3915,,,,792000.0,Yes,,4.94e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,75.0,2.8927116230000003,36.0,man
+0.5870000000000001,,,,792000.0,Yes,,7.41e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,75.0,2.8927116230000003,36.0,man
+0.9134,,,,792000.0,Yes,,1.15e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,1320.0,0.449213167,80.0,man
+,1.506,276.9,51.1,792000.0,Yes,1.9e-06,,0.000349621,6.45e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,1320.0,0.449213167,80.0,man
+2.271,,,,792000.0,Yes,,2.87e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,80.0,5.6,80.0,man
+,3.7439999999999998,688.3,127.1,792000.0,Yes,4.73e-06,,0.000869066,0.00016048,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,80.0,5.6,80.0,man
+0.0382,,,,792000.0,Yes,,4.82e-08,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,1320.0,0.449213167,80.0,man
+0.0949,,,,792000.0,Yes,,1.2e-07,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,80.0,5.6,80.0,man
+0.0763,,,,792000.0,Yes,,9.630000000000001e-08,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,1320.0,0.449213167,80.0,man
+0.1898,,,,792000.0,Yes,,2.4e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,80.0,5.6,80.0,man
+0.1526,,,,792000.0,Yes,,1.93e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,1320.0,0.449213167,80.0,man
+0.3795,,,,792000.0,Yes,,4.79e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,80.0,5.6,80.0,man
+0.2289,,,,792000.0,Yes,,2.89e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,1320.0,0.449213167,80.0,man
+0.569,,,,792000.0,Yes,,7.179999999999999e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,80.0,5.6,80.0,man
+2.109,,,,792000.0,Yes,,2.66e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,90.0,5.036754195,80.0,man
+,3.478,639.3,118.1,792000.0,Yes,4.39e-06,,0.000807197,0.000149116,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,90.0,5.036754195,80.0,man
+0.0882,,,,792000.0,Yes,,1.11e-07,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,90.0,5.036754195,80.0,man
+0.1763,,,,792000.0,Yes,,2.23e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,90.0,5.036754195,80.0,man
+0.3525,,,,792000.0,Yes,,4.45e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,90.0,5.036754195,80.0,man
+0.5286,,,,792000.0,Yes,,6.67e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,90.0,5.036754195,80.0,man
+1.419,,,,792000.0,Yes,,1.79e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,1290.0,1.046126693,200.0,man
+,2.34,430.2,79.4,792000.0,Yes,2.95e-06,,0.000543182,0.00010025299999999999,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,1290.0,1.046126693,200.0,man
+1.33,,,,792000.0,Yes,,1.68e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,200.0,5.6,200.0,man
+,2.1919999999999997,403.0,74.4,792000.0,Yes,2.77e-06,,0.0005088380000000001,9.39e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,200.0,5.6,200.0,man
+0.0593,,,,792000.0,Yes,,7.49e-08,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,1290.0,1.046126693,200.0,man
+0.0556,,,,792000.0,Yes,,7.019999999999999e-08,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,200.0,5.6,200.0,man
+0.1186,,,,792000.0,Yes,,1.5e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,1290.0,1.046126693,200.0,man
+0.1111,,,,792000.0,Yes,,1.4e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,200.0,5.6,200.0,man
+0.2372,,,,792000.0,Yes,,2.9899999999999996e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,1290.0,1.046126693,200.0,man
+0.2222,,,,792000.0,Yes,,2.81e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,200.0,5.6,200.0,man
+0.3556,,,,792000.0,Yes,,4.49e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,1290.0,1.046126693,200.0,man
+0.3332,,,,792000.0,Yes,,4.21e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,200.0,5.6,200.0,man
+1.0859999999999999,,,,792000.0,Yes,,1.37e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,460.0,2.6462628169999998,200.0,man
+,1.791,329.2,60.8,792000.0,Yes,2.26e-06,,0.000415657,7.68e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,460.0,2.6462628169999998,200.0,man
+0.0454,,,,792000.0,Yes,,5.7300000000000004e-08,,,constant,1.0,1.0,1.0,Yeh/Schum Symmetric,ZnO,460.0,2.6462628169999998,200.0,man
+0.0908,,,,792000.0,Yes,,1.15e-07,,,constant,1.0,2.0,1.0,Yeh/Schum Symmetric,ZnO,460.0,2.6462628169999998,200.0,man
+0.1815,,,,792000.0,Yes,,2.2899999999999997e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,460.0,2.6462628169999998,200.0,man
+0.2722,,,,792000.0,Yes,,3.44e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,460.0,2.6462628169999998,200.0,man
+1.047,,,,792000.0,Yes,,1.32e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,229.0,0.760010266,34.0,man
+,1.7269999999999999,317.5,58.6,792000.0,Yes,2.18e-06,,0.000400884,7.4e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,229.0,0.760010266,34.0,man
+3.193,,,,792000.0,Yes,,4.03e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,34.0,4.23,34.0,man
+,5.263999999999999,967.8,178.7,792000.0,Yes,6.65e-06,,0.00122197,0.00022563099999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,34.0,4.23,34.0,man
+1.751,,,,792000.0,Yes,,2.21e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,111.0,0.9882051820000001,25.0,man
+,2.887,530.8,98.0,792000.0,Yes,3.65e-06,,0.000670202,0.000123737,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,111.0,0.9882051820000001,25.0,man
+3.137,,,,792000.0,Yes,,3.96e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,25.0,3.78,25.0,man
+,5.172000000000001,950.9,175.6,792000.0,Yes,6.53e-06,,0.001200631,0.00022171700000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,25.0,3.78,25.0,man
+3.142,,,,792000.0,Yes,,3.97e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,37.8,1.561351265,21.0,man
+,5.181,952.5,175.9,792000.0,Yes,6.54e-06,,0.001202652,0.000222096,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Crystalline SiO2,37.8,1.561351265,21.0,man
+2.9619999999999997,,,,792000.0,Yes,,3.74e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,21.0,2.65,21.0,man
+,4.8839999999999995,897.8,165.8,792000.0,Yes,6.17e-06,,0.001133586,0.000209343,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Crystalline SiO2,21.0,2.65,21.0,man
+9.366,,,,792000.0,Yes,,1.18e-05,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,37.8,1.561351265,21.0,man
+8.828,,,,792000.0,Yes,,1.11e-05,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,21.0,2.65,21.0,man
+2.4330000000000003,,,,792000.0,Yes,,3.07e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,70.12,2.303160919,60.0,man
+,4.012,737.6,136.2,792000.0,Yes,5.07e-06,,0.000931313,0.00017197,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Crystalline SiO2,70.12,2.303160919,60.0,man
+2.653,,,,792000.0,Yes,,3.35e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,60.0,2.65,60.0,man
+,4.374,804.1,148.5,792000.0,Yes,5.52e-06,,0.001015278,0.0001875,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Crystalline SiO2,60.0,2.65,60.0,man
+7.252999999999999,,,,792000.0,Yes,,9.16e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,70.12,2.303160919,60.0,man
+7.907,,,,792000.0,Yes,,9.98e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,60.0,2.65,60.0,man
+1.8330000000000002,,,,792000.0,Yes,,2.31e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,105.5,2.525333037,100.0,man
+,3.022,555.5,102.6,792000.0,Yes,3.82e-06,,0.000701389,0.000129545,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Crystalline SiO2,105.5,2.525333037,100.0,man
+1.946,,,,792000.0,Yes,,2.46e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,100.0,2.65,100.0,man
+,3.208,589.8,108.9,792000.0,Yes,4.05e-06,,0.000744697,0.0001375,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Crystalline SiO2,100.0,2.65,100.0,man
+5.462000000000001,,,,792000.0,Yes,,6.9e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,105.5,2.525333037,100.0,man
+5.7989999999999995,,,,792000.0,Yes,,7.32e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,100.0,2.65,100.0,man
+1.213,,,,792000.0,Yes,,1.53e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,203.3,2.611254667,200.0,man
+,2.0,367.7,67.9,792000.0,Yes,2.53e-06,,0.00046426800000000005,8.57e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Crystalline SiO2,203.3,2.611254667,200.0,man
+1.216,,,,792000.0,Yes,,1.54e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,200.0,2.65,200.0,man
+,2.005,368.6,68.1,792000.0,Yes,2.53e-06,,0.000465404,8.6e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Crystalline SiO2,200.0,2.65,200.0,man
+3.616,,,,792000.0,Yes,,4.57e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,203.3,2.611254667,200.0,man
+3.625,,,,792000.0,Yes,,4.58e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,Crystalline SiO2,200.0,2.65,200.0,man
+0.8192,,,,792000.0,Yes,,1.03e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,391.85,0.9453161609999999,48.89,man
+,1.351,248.3,45.9,792000.0,Yes,1.71e-06,,0.00031351,5.7999999999999994e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,391.85,0.9453161609999999,48.89,man
+2.9189999999999996,,,,792000.0,Yes,,3.69e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,48.89,6.153,48.89,man
+,4.812,884.7,163.4,792000.0,Yes,6.08e-06,,0.001117045,0.000206313,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,48.89,6.153,48.89,man
+0.1658,,,,792000.0,Yes,,2.0899999999999998e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,TiO2,170.0,2.1325834230000003,90.0,man
+,2.181,400.9,74.0,792000.0,Yes,2.75e-06,,0.000506187,9.340000000000001e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,170.0,2.1325834230000003,90.0,man
+0.2629,,,,792000.0,Yes,,3.32e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,TiO2,90.0,3.78,90.0,man
+,3.457,635.6,117.4,792000.0,Yes,4.36e-06,,0.000802525,0.000148232,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,90.0,3.78,90.0,man
+1.3230000000000002,,,,792000.0,Yes,,1.67e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,170.0,2.1325834230000003,90.0,man
+2.097,,,,792000.0,Yes,,2.65e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,90.0,3.78,90.0,man
+0.1497,,,,792000.0,Yes,,1.8899999999999999e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,ZnO,193.0,1.41941964,42.0,man
+,1.969,361.9,66.8,792000.0,Yes,2.49e-06,,0.00045694400000000004,8.43e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,193.0,1.41941964,42.0,man
+0.3844,,,,792000.0,Yes,,4.85e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,ZnO,42.0,5.6,42.0,man
+1.194,,,,792000.0,Yes,,1.51e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,193.0,1.41941964,42.0,man
+0.2711,,,,792000.0,Yes,,3.42e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,CeO2,86.0,4.339706537,49.0,man
+0.3658,,,,792000.0,Yes,,4.6200000000000003e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,CeO2,49.0,7.2,49.0,man
+0.3156,,,,792000.0,Yes,,3.98e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,Ag,66.0,2.198156665,15.0,man
+,4.151,763.2,140.9,792000.0,Yes,5.24e-06,,0.000963636,0.00017790400000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Ag,66.0,2.198156665,15.0,man
+0.2947,,,,792000.0,Yes,,3.7200000000000005e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,Ag,15.0,8.34,15.0,man
+,3.8760000000000003,712.7,131.6,792000.0,Yes,4.89e-06,,0.0008998739999999999,0.000166162,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Ag,15.0,8.34,15.0,man
+2.5180000000000002,,,,792000.0,Yes,,3.18e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Ag,66.0,2.198156665,15.0,man
+2.351,,,,792000.0,Yes,,2.97e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Ag,15.0,8.34,15.0,man
+3.466,,,,792000.0,Yes,,4.38e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,188.8,0.130912547,4.5,man
+,1.9180000000000001,352.5,65.1,792000.0,Yes,2.42e-06,,0.000445076,8.22e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,188.8,0.130912547,4.5,man
+0.2213,,,,792000.0,Yes,,2.79e-07,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,4.5,3.78,4.5,man
+,0.1224,22.5,4.157,792000.0,Yes,1.55e-07,,2.84e-05,5.25e-06,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,4.5,3.78,4.5,man
+3.0869999999999997,,,,792000.0,Yes,,3.9e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,222.7,0.150555327,6.2,man
+,1.7080000000000002,314.0,58.0,792000.0,Yes,2.16e-06,,0.000396465,7.32e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,222.7,0.150555327,6.2,man
+1.101,,,,792000.0,Yes,,1.39e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,6.2,3.78,6.2,man
+,0.6088,111.9,20.7,792000.0,Yes,7.690000000000001e-07,,0.000141288,2.61e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,6.2,3.78,6.2,man
+3.042,,,,792000.0,Yes,,3.84e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,232.4,0.462214489,22.5,man
+,1.683,309.4,57.1,792000.0,Yes,2.13e-06,,0.000390657,7.209999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,232.4,0.462214489,22.5,man
+9.076,,,,792000.0,Yes,,1.15e-05,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,22.5,3.78,22.5,man
+,5.021,923.0,170.4,792000.0,Yes,6.34e-06,,0.0011654039999999999,0.000215152,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,22.5,3.78,22.5,man
+2.399,,,,792000.0,Yes,,3.03e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,344.0,0.47081132200000003,30.0,man
+,1.327,244.0,45.0,792000.0,Yes,1.68e-06,,0.000308081,5.68e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,344.0,0.47081132200000003,30.0,man
+9.567,,,,792000.0,Yes,,1.21e-05,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,30.0,4.23,30.0,man
+,5.292999999999999,973.0,179.7,792000.0,Yes,6.68e-06,,0.001228535,0.00022689400000000003,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,30.0,4.23,30.0,man
+0.1198,,,,792000.0,Yes,,1.51e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,TiO2,400.0,0.285373322,20.0,man
+,1.182,217.3,40.1,792000.0,Yes,1.49e-06,,0.000274369,5.0600000000000003e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,400.0,0.285373322,20.0,man
+0.4836,,,,792000.0,Yes,,6.110000000000001e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,TiO2,20.0,4.23,20.0,man
+,4.771,877.1,162.0,792000.0,Yes,6.02e-06,,0.001107449,0.000204545,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,20.0,4.23,20.0,man
+0.7169,,,,792000.0,Yes,,9.05e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,400.0,0.285373322,20.0,man
+2.8930000000000002,,,,792000.0,Yes,,3.65e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,20.0,4.23,20.0,man
+0.0602,,,,792000.0,Yes,,7.599999999999999e-08,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,TiO2,2102.0,0.030145732,9.8,man
+,0.5942,109.2,20.2,792000.0,Yes,7.5e-07,,0.00013787899999999999,2.55e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,2102.0,0.030145732,9.8,man
+0.2175,,,,792000.0,Yes,,2.75e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,TiO2,9.8,3.78,9.8,man
+,2.146,394.5,72.8,792000.0,Yes,2.71e-06,,0.000498106,9.19e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,9.8,3.78,9.8,man
+0.1805,,,,792000.0,Yes,,2.28e-07,,,constant,1.0,12.0,1.0,Yeh/Schum Symmetric,TiO2,2102.0,0.030145732,9.8,man
+0.6517,,,,792000.0,Yes,,8.23e-07,,,constant,1.0,12.0,1.0,Yeh/Schum Symmetric,TiO2,9.8,3.78,9.8,man
+0.3604,,,,792000.0,Yes,,4.55e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,2102.0,0.030145732,9.8,man
+1.301,,,,792000.0,Yes,,1.64e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,9.8,3.78,9.8,man
+0.7184,,,,792000.0,Yes,,9.070000000000001e-07,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,2102.0,0.030145732,9.8,man
+2.594,,,,792000.0,Yes,,3.28e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,9.8,3.78,9.8,man
+0.0801,,,,792000.0,Yes,,1.0099999999999999e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Fe2O3,1239.0,0.111568788,17.2,man
+,0.7904,145.3,26.8,792000.0,Yes,9.98e-07,,0.00018346,3.3799999999999995e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,1239.0,0.111568788,17.2,man
+0.4409,,,,792000.0,Yes,,5.57e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,man
+,4.35,799.6,147.7,792000.0,Yes,5.49e-06,,0.001009596,0.00018649,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,man
+0.2401,,,,792000.0,Yes,,3.03e-07,,,constant,1.0,12.0,1.0,Yeh/Schum Symmetric,Fe2O3,1239.0,0.111568788,17.2,man
+1.321,,,,792000.0,Yes,,1.67e-06,,,constant,1.0,12.0,1.0,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,man
+0.4794,,,,792000.0,Yes,,6.05e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,1239.0,0.111568788,17.2,man
+2.638,,,,792000.0,Yes,,3.33e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,man
+0.9556,,,,792000.0,Yes,,1.21e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,Fe2O3,1239.0,0.111568788,17.2,man
+5.2589999999999995,,,,792000.0,Yes,,6.64e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,Fe2O3,17.2,5.24,17.2,man
+0.1001,,,,792000.0,Yes,,1.26e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,1680.0,0.139200715,27.7,man
+,0.988,181.6,33.5,792000.0,Yes,1.25e-06,,0.000229293,4.23e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,1680.0,0.139200715,27.7,man
+0.5335,,,,792000.0,Yes,,6.74e-07,,,constant,1.0,4.0,1.0,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,man
+,5.263,967.6,178.7,792000.0,Yes,6.65e-06,,0.001221717,0.00022563099999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,man
+0.3001,,,,792000.0,Yes,,3.79e-07,,,constant,1.0,12.0,1.0,Yeh/Schum Symmetric,ZnO,1680.0,0.139200715,27.7,man
+1.599,,,,792000.0,Yes,,2.02e-06,,,constant,1.0,12.0,1.0,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,man
+0.5992,,,,792000.0,Yes,,7.57e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,1680.0,0.139200715,27.7,man
+3.1919999999999997,,,,792000.0,Yes,,4.03e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,man
+1.195,,,,792000.0,Yes,,1.51e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,ZnO,1680.0,0.139200715,27.7,man
+6.3629999999999995,,,,792000.0,Yes,,8.03e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,ZnO,27.7,5.6,27.7,man
+0.708,,,,792000.0,Yes,,8.94e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,396.0,0.198631566,15.0,man
+,1.167,214.6,39.6,792000.0,Yes,1.47e-06,,0.00027096,5e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,396.0,0.198631566,15.0,man
+2.351,,,,792000.0,Yes,,2.97e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,15.0,3.78,15.0,man
+,3.877,712.8,131.6,792000.0,Yes,4.9e-06,,0.0009,0.000166162,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,15.0,3.78,15.0,man
+2.112,,,,792000.0,Yes,,2.67e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Ag,90.0,5.353948788,55.0,man
+,3.483,640.3,118.2,792000.0,Yes,4.4e-06,,0.00080846,0.000149242,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Ag,90.0,5.353948788,55.0,man
+2.783,,,,792000.0,Yes,,3.51e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Ag,55.0,8.34,55.0,man
+,4.5889999999999995,843.7,155.8,792000.0,Yes,5.79e-06,,0.001065278,0.000196717,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Ag,55.0,8.34,55.0,man
+1.1540000000000001,,,,792000.0,Yes,,1.46e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,192.0,0.27436569899999996,19.0,man
+,1.902,349.7,64.6,792000.0,Yes,2.4e-06,,0.00044154,8.159999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,192.0,0.27436569899999996,19.0,man
+2.8139999999999996,,,,792000.0,Yes,,3.55e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,19.0,2.2,19.0,man
+,4.638999999999999,852.9,157.5,792000.0,Yes,5.86e-06,,0.001076894,0.000198864,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,19.0,2.2,19.0,man
+3.162,,,,792000.0,Yes,,3.99e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,26.0,2.123697596,25.0,man
+,5.2139999999999995,958.6,177.0,792000.0,Yes,6.58e-06,,0.0012103539999999999,0.000223485,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,26.0,2.123697596,25.0,man
+3.137,,,,792000.0,Yes,,3.96e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,25.0,2.2,25.0,man
+,5.172000000000001,950.9,175.6,792000.0,Yes,6.53e-06,,0.001200631,0.00022171700000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,25.0,2.2,25.0,man
+6.303999999999999,,,,792000.0,Yes,,7.96e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,26.0,2.123697596,25.0,man
+6.252999999999999,,,,792000.0,Yes,,7.9e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,25.0,2.2,25.0,man
+3.1010000000000004,,,,792000.0,Yes,,3.92e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,40.0,2.2,40.0,man
+,5.114,940.1,173.6,792000.0,Yes,6.46e-06,,0.001186995,0.000219192,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,40.0,2.2,40.0,man
+6.183,,,,792000.0,Yes,,7.81e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,40.0,2.2,40.0,man
+1.871,,,,792000.0,Yes,,2.36e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,101.0,0.984868228,20.0,man
+,3.0860000000000003,567.3,104.7,792000.0,Yes,3.9e-06,,0.000716288,0.000132197,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,101.0,0.984868228,20.0,man
+3.73,,,,792000.0,Yes,,4.71e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,101.0,0.984868228,20.0,man
+5.768,,,,792000.0,Yes,,7.28e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,20.0,4.23,20.0,man
+0.106,,,,792000.0,Yes,,1.34e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,TiO2,318.0,0.511867313,21.0,man
+,1.395,256.4,47.3,792000.0,Yes,1.76e-06,,0.000323737,5.9699999999999994e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,318.0,0.511867313,21.0,man
+0.3713,,,,792000.0,Yes,,4.69e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,TiO2,21.0,4.23,21.0,man
+,4.883,897.8,165.8,792000.0,Yes,6.17e-06,,0.001133586,0.000209343,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,21.0,4.23,21.0,man
+0.8457,,,,792000.0,Yes,,1.07e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,318.0,0.511867313,21.0,man
+2.9619999999999997,,,,792000.0,Yes,,3.74e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,21.0,4.23,21.0,man
+0.0959,,,,792000.0,Yes,,1.2099999999999998e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,TiO2,567.0,0.8046967070000001,8.0,man
+,1.261,231.9,42.8,792000.0,Yes,1.59e-06,,0.000292803,5.4000000000000005e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,567.0,0.8046967070000001,8.0,man
+0.1037,,,,792000.0,Yes,,1.31e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,TiO2,8.0,3.78,8.0,man
+,1.364,250.8,46.3,792000.0,Yes,1.72e-06,,0.000316667,5.85e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,8.0,3.78,8.0,man
+0.7649,,,,792000.0,Yes,,9.66e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,567.0,0.8046967070000001,8.0,man
+0.8275,,,,792000.0,Yes,,1.04e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,8.0,3.78,8.0,man
+0.1186,,,,792000.0,Yes,,1.5e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,TiO2,286.0,1.0776603120000001,100.0,man
+,1.56,286.8,53.0,792000.0,Yes,1.97e-06,,0.00036212099999999997,6.69e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,286.0,1.0776603120000001,100.0,man
+0.2456,,,,792000.0,Yes,,3.1e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,TiO2,100.0,3.78,100.0,man
+,3.2310000000000003,594.0,109.7,792000.0,Yes,4.08e-06,,0.00075,0.00013851,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,100.0,3.78,100.0,man
+0.9462,,,,792000.0,Yes,,1.19e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,286.0,1.0776603120000001,100.0,man
+1.959,,,,792000.0,Yes,,2.47e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,100.0,3.78,100.0,man
+0.1333,,,,792000.0,Yes,,1.68e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,CeO2,233.0,1.2674680109999998,29.0,man
+,1.7530000000000001,322.3,59.5,792000.0,Yes,2.21e-06,,0.000406944,7.509999999999998e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,233.0,1.2674680109999998,29.0,man
+0.4018,,,,792000.0,Yes,,5.070000000000001e-07,,,constant,1.0,3.0,1.0,Yeh/Schum Symmetric,CeO2,29.0,7.2,29.0,man
+,5.285,971.6,179.4,792000.0,Yes,6.67e-06,,0.001226768,0.000226515,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,29.0,7.2,29.0,man
+1.063,,,,792000.0,Yes,,1.34e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,233.0,1.2674680109999998,29.0,man
+3.205,,,,792000.0,Yes,,4.05e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,29.0,7.2,29.0,man
+1.052,,,,792000.0,Yes,,1.33e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CeO2,940.0,0.17377990699999998,15.0,man
+,0.8699,159.9,29.5,792000.0,Yes,1.1e-06,,0.00020189400000000002,3.72e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,940.0,0.17377990699999998,15.0,man
+4.687,,,,792000.0,Yes,,5.92e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CeO2,15.0,7.2,15.0,man
+,3.877,712.7,131.6,792000.0,Yes,4.9e-06,,0.0008998739999999999,0.000166162,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,15.0,7.2,15.0,man
+1.0290000000000001,,,,792000.0,Yes,,1.3e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CeO2,1072.0,0.154397165,15.0,man
+,0.8508,156.4,28.9,792000.0,Yes,1.07e-06,,0.000197475,3.65e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,1072.0,0.154397165,15.0,man
+1.056,,,,792000.0,Yes,,1.33e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CeO2,1833.0,0.095272686,15.0,man
+,0.8737,160.6,29.7,792000.0,Yes,1.1e-06,,0.000202778,3.75e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,1833.0,0.095272686,15.0,man
+1.34,,,,792000.0,Yes,,1.69e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CuO,672.0,0.485633415,40.0,man
+,1.1079999999999999,203.8,37.6,792000.0,Yes,1.4e-06,,0.000257323,4.7499999999999996e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,672.0,0.485633415,40.0,man
+6.191,,,,792000.0,Yes,,7.82e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CuO,40.0,6.153,40.0,man
+,5.12,941.3,173.8,792000.0,Yes,6.46e-06,,0.00118851,0.000219444,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,40.0,6.153,40.0,man
+1.32,,,,792000.0,Yes,,1.67e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CuO,815.0,0.408224494,40.0,man
+,1.092,200.8,37.1,792000.0,Yes,1.38e-06,,0.000253535,4.68e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,815.0,0.408224494,40.0,man
+1.337,,,,792000.0,Yes,,1.69e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CuO,1131.0,0.303965688,40.0,man
+,1.1059999999999999,203.4,37.6,792000.0,Yes,1.4e-06,,0.00025681799999999997,4.7499999999999996e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,1131.0,0.303965688,40.0,man
+1.3659999999999999,,,,792000.0,Yes,,1.72e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CeO2,642.0,0.525063962,35.0,man
+,1.13,207.7,38.4,792000.0,Yes,1.43e-06,,0.000262247,4.85e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,642.0,0.525063962,35.0,man
+6.347,,,,792000.0,Yes,,8.01e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CeO2,35.0,7.2,35.0,man
+,5.25,965.2,178.2,792000.0,Yes,6.63e-06,,0.001218687,0.000225,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,35.0,7.2,35.0,man
+1.357,,,,792000.0,Yes,,1.71e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CeO2,1116.0,0.319224313,35.0,man
+,1.122,206.3,38.1,792000.0,Yes,1.42e-06,,0.00026048,4.8100000000000004e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,1116.0,0.319224313,35.0,man
+1.452,,,,792000.0,Yes,,1.83e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,CeO2,1470.0,0.249119736,35.0,man
+,1.2009999999999998,220.8,40.8,792000.0,Yes,1.52e-06,,0.000278788,5.15e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,1470.0,0.249119736,35.0,man
+1.327,,,,792000.0,Yes,,1.68e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Ag,168.57,2.026399326,35.0,man
+,2.188,402.2,74.3,792000.0,Yes,2.76e-06,,0.000507828,9.379999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Ag,168.57,2.026399326,35.0,man
+3.185,,,,792000.0,Yes,,4.02e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Ag,35.0,8.34,35.0,man
+,5.251,965.4,178.3,792000.0,Yes,6.63e-06,,0.001218939,0.00022512599999999997,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Ag,35.0,8.34,35.0,man
+0.3325,,,,792000.0,Yes,,4.2e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Ag,168.57,2.026399326,35.0,man
+0.7981,,,,792000.0,Yes,,1.01e-06,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,Ag,35.0,8.34,35.0,man
+1.177,,,,792000.0,Yes,,1.49e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,191.57,0.821241982,31.0,man
+,1.94,356.7,65.9,792000.0,Yes,2.45e-06,,0.000450379,8.32e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,191.57,0.821241982,31.0,man
+3.208,,,,792000.0,Yes,,4.05e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,31.0,4.23,31.0,man
+,5.289,972.4,179.6,792000.0,Yes,6.68e-06,,0.0012277780000000001,0.000226768,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,31.0,4.23,31.0,man
+0.2949,,,,792000.0,Yes,,3.7200000000000005e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,TiO2,191.57,0.821241982,31.0,man
+0.8039,,,,792000.0,Yes,,1.02e-06,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,TiO2,31.0,4.23,31.0,man
+2.083,,,,792000.0,Yes,,2.63e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,89.92,2.209796794,32.0,man
+,3.4339999999999997,631.3,116.6,792000.0,Yes,4.34e-06,,0.0007970960000000001,0.000147222,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,89.92,2.209796794,32.0,man
+3.2060000000000004,,,,792000.0,Yes,,4.05e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,32.0,5.6,32.0,man
+,5.2860000000000005,971.8,179.5,792000.0,Yes,6.67e-06,,0.00122702,0.00022664099999999997,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,32.0,5.6,32.0,man
+0.5219,,,,792000.0,Yes,,6.590000000000001e-07,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,89.92,2.209796794,32.0,man
+0.8035,,,,792000.0,Yes,,1.01e-06,,,constant,1.0,6.0,1.0,Yeh/Schum Symmetric,ZnO,32.0,5.6,32.0,man
+1.393,,,,792000.0,Yes,,1.76e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,150.0,0.330376895,10.0,man
+,2.298,422.4,78.0,792000.0,Yes,2.9e-06,,0.000533333,9.85e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,150.0,0.330376895,10.0,man
+1.3519999999999999,,,,792000.0,Yes,,1.71e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,10.0,3.78,10.0,man
+,2.229,409.8,75.7,792000.0,Yes,2.81e-06,,0.000517424,9.559999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,10.0,3.78,10.0,man
+2.524,,,,792000.0,Yes,,3.19e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,65.3,0.374233741,5.0,man
+,4.1610000000000005,765.0,141.3,792000.0,Yes,5.25e-06,,0.0009659089999999999,0.000178409,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,65.3,0.374233741,5.0,man
+0.1382,,,,792000.0,Yes,,1.74e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,5.0,3.78,5.0,man
+,0.2279,41.9,7.7379999999999995,792000.0,Yes,2.88e-07,,5.2900000000000005e-05,9.77e-06,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,5.0,3.78,5.0,man
+5.031000000000001,,,,792000.0,Yes,,6.35e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,65.3,0.374233741,5.0,man
+0.2756,,,,792000.0,Yes,,3.48e-07,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,5.0,3.78,5.0,man
+7.522,,,,792000.0,Yes,,9.5e-06,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,65.3,0.374233741,5.0,man
+0.41200000000000003,,,,792000.0,Yes,,5.2e-07,,,constant,1.0,72.0,1.0,Yeh/Schum Symmetric,TiO2,5.0,3.78,5.0,man
+0.7234,,,,792000.0,Yes,,9.13e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,378.0,0.160915451,10.0,man
+,1.193,219.3,40.5,792000.0,Yes,1.51e-06,,0.000276894,5.11e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,378.0,0.160915451,10.0,man
+1.3519999999999999,,,,792000.0,Yes,,1.71e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,10.0,4.23,10.0,man
+,2.229,409.7,75.7,792000.0,Yes,2.81e-06,,0.000517298,9.559999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,10.0,4.23,10.0,man
+0.8108,,,,792000.0,Yes,,1.02e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,1562.0,0.276661277,85.5,man
+,1.337,245.8,45.4,792000.0,Yes,1.69e-06,,0.000310354,5.73e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,1562.0,0.276661277,85.5,man
+2.166,,,,792000.0,Yes,,2.73e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,85.5,3.78,85.5,man
+,3.571,656.5,121.2,792000.0,Yes,4.51e-06,,0.0008289139999999999,0.00015303,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,85.5,3.78,85.5,man
+0.6729,,,,792000.0,Yes,,8.5e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,848.0,0.41481435200000005,72.8,man
+,1.109,204.0,37.7,792000.0,Yes,1.4e-06,,0.000257576,4.7600000000000005e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,848.0,0.41481435200000005,72.8,man
+2.39,,,,792000.0,Yes,,3.02e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,72.8,3.78,72.8,man
+,3.94,724.3,133.8,792000.0,Yes,4.97e-06,,0.00091452,0.000168939,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,72.8,3.78,72.8,man
+2.406,,,,792000.0,Yes,,3.04e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,182.6,0.516497353,20.0,man
+,1.99,365.9,67.6,792000.0,Yes,2.51e-06,,0.000461995,8.540000000000002e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,182.6,0.516497353,20.0,man
+5.768,,,,792000.0,Yes,,7.28e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,20.0,3.78,20.0,man
+,4.771,877.1,162.0,792000.0,Yes,6.02e-06,,0.001107449,0.000204545,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,20.0,3.78,20.0,man
+2.696,,,,792000.0,Yes,,3.4e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,157.4,0.660637327,20.0,man
+,2.23,410.0,75.7,792000.0,Yes,2.82e-06,,0.000517677,9.559999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,157.4,0.660637327,20.0,man
+2.633,,,,792000.0,Yes,,3.32e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,162.4,0.642302986,20.0,man
+,2.178,400.4,73.9,792000.0,Yes,2.75e-06,,0.000505556,9.329999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,162.4,0.642302986,20.0,man
+2.364,,,,792000.0,Yes,,2.98e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,186.4,0.438020576,17.0,man
+,1.956,359.5,66.4,792000.0,Yes,2.47e-06,,0.00045391400000000003,8.379999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,186.4,0.438020576,17.0,man
+5.2139999999999995,,,,792000.0,Yes,,6.58e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,17.0,3.78,17.0,man
+2.549,,,,792000.0,Yes,,3.22e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,169.6,0.6177092439999999,20.0,man
+,2.108,387.6,71.6,792000.0,Yes,2.66e-06,,0.000489394,9.04e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,169.6,0.6177092439999999,20.0,man
+2.1959999999999997,,,,792000.0,Yes,,2.77e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,208.6,0.45817978299999995,20.0,man
+,1.817,334.0,61.7,792000.0,Yes,2.29e-06,,0.00042171699999999995,7.79e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,208.6,0.45817978299999995,20.0,man
+2.5380000000000003,,,,792000.0,Yes,,3.2e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,170.6,0.614449562,20.0,man
+,2.099,385.9,71.3,792000.0,Yes,2.65e-06,,0.00048724699999999995,9e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,170.6,0.614449562,20.0,man
+2.485,,,,792000.0,Yes,,3.14e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,212.4,4.007082669,200.0,man
+,2.055,377.8,69.8,792000.0,Yes,2.59e-06,,0.00047702,8.809999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,212.4,4.007082669,200.0,man
+2.548,,,,792000.0,Yes,,3.22e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,200.0,4.23,200.0,man
+,2.1069999999999998,387.4,71.5,792000.0,Yes,2.66e-06,,0.000489141,9.03e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,200.0,4.23,200.0,man
+2.688,,,,792000.0,Yes,,3.39e-06,,,constant,1.0,48.0,1.0,Yeh/Schum Symmetric,TiO2,157.4,0.510025128,17.0,man
+,2.2230000000000003,408.7,75.5,792000.0,Yes,2.81e-06,,0.000516035,9.53e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,157.4,0.510025128,17.0,man
+0.7686,,,,792000.0,Yes,,9.7e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,342.0,0.128902885,10.0,man
+,1.2670000000000001,233.0,43.0,792000.0,Yes,1.6e-06,,0.00029419200000000003,5.429999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,342.0,0.128902885,10.0,man
+1.3519999999999999,,,,792000.0,Yes,,1.71e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,10.0,2.2,10.0,man
+,2.229,409.8,75.7,792000.0,Yes,2.81e-06,,0.000517424,9.559999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,10.0,2.2,10.0,man
+0.8205,,,,792000.0,Yes,,1.04e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,432.0,1.0222642990000002,23.0,man
+,1.3530000000000002,248.7,45.9,792000.0,Yes,1.71e-06,,0.000314015,5.7999999999999994e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,432.0,1.0222642990000002,23.0,man
+3.068,,,,792000.0,Yes,,3.87e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,23.0,7.2,23.0,man
+,5.058,929.9,171.7,792000.0,Yes,6.39e-06,,0.001174116,0.00021679299999999998,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,23.0,7.2,23.0,man
+1.218,,,,792000.0,Yes,,1.54e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,220.0,3.75115131,88.0,man
+,2.009,369.3,68.2,792000.0,Yes,2.54e-06,,0.00046628800000000003,8.609999999999999e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,220.0,3.75115131,88.0,man
+2.1590000000000003,,,,792000.0,Yes,,2.73e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,88.0,7.2,88.0,man
+,3.5589999999999997,654.3,120.8,792000.0,Yes,4.49e-06,,0.0008261360000000001,0.000152525,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,88.0,7.2,88.0,man
+0.5871,,,,792000.0,Yes,,7.41e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,660.0,0.25876331199999997,10.0,man
+,0.968,178.0,32.9,792000.0,Yes,1.22e-06,,0.000224747,4.15e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,660.0,0.25876331199999997,10.0,man
+1.035,,,,792000.0,Yes,,1.31e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,417.0,2.529213223,200.0,man
+,1.7069999999999999,313.7,57.9,792000.0,Yes,2.16e-06,,0.000396086,7.31e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,417.0,2.529213223,200.0,man
+1.261,,,,792000.0,Yes,,1.59e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,200.0,3.78,200.0,man
+,2.0780000000000003,382.1,70.6,792000.0,Yes,2.62e-06,,0.00048244900000000003,8.909999999999998e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,200.0,3.78,200.0,man
+2.444,,,,792000.0,Yes,,3.09e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,69.3,1.226781297,9.7,man
+,4.03,740.8,136.8,792000.0,Yes,5.09e-06,,0.0009353539999999999,0.00017272700000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,69.3,1.226781297,9.7,man
+1.276,,,,792000.0,Yes,,1.61e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,9.7,7.2,9.7,man
+,2.104,386.7,71.4,792000.0,Yes,2.66e-06,,0.00048825800000000004,9.02e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,9.7,7.2,9.7,man
+2.444,,,,792000.0,Yes,,3.09e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CeO2,69.3,1.226781297,9.7,man
+,4.03,740.8,136.8,792000.0,Yes,5.09e-06,,0.0009353539999999999,0.00017272700000000002,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CeO2,69.3,1.226781297,9.7,man
+2.0780000000000003,,,,792000.0,Yes,,2.62e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,89.8,1.600521527,30.5,man
+,3.427,630.0,116.3,792000.0,Yes,4.33e-06,,0.000795455,0.000146843,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,89.8,1.600521527,30.5,man
+3.208,,,,792000.0,Yes,,4.05e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,30.5,4.23,30.5,man
+,5.289,972.4,179.6,792000.0,Yes,6.68e-06,,0.0012277780000000001,0.000226768,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,30.5,4.23,30.5,man
+2.0780000000000003,,,,792000.0,Yes,,2.62e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,89.8,1.600521527,30.5,man
+,3.427,630.0,116.3,792000.0,Yes,4.33e-06,,0.000795455,0.000146843,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,89.8,1.600521527,30.5,man
+0.6833,,,,792000.0,Yes,,8.629999999999999e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,398.1,0.051949604,6.2,man
+,1.127,207.1,38.2,792000.0,Yes,1.42e-06,,0.00026149,4.8200000000000006e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,398.1,0.051949604,6.2,man
+0.3692,,,,792000.0,Yes,,4.66e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,6.2,2.2,6.2,man
+,0.6088,111.9,20.7,792000.0,Yes,7.690000000000001e-07,,0.000141288,2.61e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,6.2,2.2,6.2,man
+0.6833,,,,792000.0,Yes,,8.629999999999999e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,Amorphous SiO2,398.1,0.051949604,6.2,man
+,1.127,207.1,38.2,792000.0,Yes,1.42e-06,,0.00026149,4.8200000000000006e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,Amorphous SiO2,398.1,0.051949604,6.2,man
+1.994,,,,792000.0,Yes,,2.52e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,95.6,1.713663687,23.1,man
+,3.2880000000000003,604.5,111.6,792000.0,Yes,4.15e-06,,0.0007632580000000001,0.000140909,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,95.6,1.713663687,23.1,man
+3.069,,,,792000.0,Yes,,3.88e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,CuO,23.1,6.153,23.1,man
+,5.061,930.4,171.8,792000.0,Yes,6.39e-06,,0.001174747,0.00021691900000000001,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,CuO,23.1,6.153,23.1,man
+0.6312,,,,792000.0,Yes,,7.970000000000001e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,492.8,0.178332212,10.7,man
+,1.041,191.3,35.3,792000.0,Yes,1.31e-06,,0.00024154,4.46e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,492.8,0.178332212,10.7,man
+1.5230000000000001,,,,792000.0,Yes,,1.92e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,10.7,5.6,10.7,man
+,2.51,461.5,85.2,792000.0,Yes,3.17e-06,,0.0005827019999999999,0.000107576,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,10.7,5.6,10.7,man
+0.6312,,,,792000.0,Yes,,7.970000000000001e-07,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,ZnO,492.8,0.178332212,10.7,man
+,1.041,191.3,35.3,792000.0,Yes,1.31e-06,,0.00024154,4.46e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,ZnO,492.8,0.178332212,10.7,man
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,0.6277,,,559000.0,Yes,,1.1228980322003577e-06,,,constant,1.0,24.0,1.0,Yeh/Schum Symmetric,TiO2,900.0,0.6246689106294632,17.0,female
+1.035,,190.3,35.1,559000.0,Yes,1.8515205724508048e-06,,0.00034042933810375675,6.27906976744186e-05,constant,5.0,8.0,1820.0,Yeh/Schum Symmetric,TiO2,900.0,0.6246689106294632,17.0,female

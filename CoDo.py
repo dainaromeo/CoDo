@@ -12,21 +12,21 @@ import sys
 # PLEASE NOT THAT THE FILEPATH USES "/" AND NOT "\"
 # -------- INDICATE THE FULL PATH OF THE MPPD DATASET CSV FILE -------------------------
 
-MPPD_dataset = 'C:/Users/roda/Documents/Python Scripts/MPPD_df_auto.csv'
+MPPD_dataset = 'C:/Users/roda/Documents/Python Scripts/CoDo/MPPD_df_auto.csv'
 
 # ------ INDICATE THE LOCATION OF THE MPPD SOFTWARE FOLDER - USUALLY FOUND IN DOCUMENTS
 MPPD_results = 'C:/Users/roda/Documents/MPPD'
 
 # ------- INDICATE THE FULL PATH OF THE TEMPLATE FILE --------------------------------------
-template_file = 'C:/Users/roda/Documents/Python Scripts/CoDo/CoDo template Veno.xlsx'
+template_file = 'C:/Users/roda/Documents/Python Scripts/CoDo/CoDo template.xlsx'
 
 # ------- INDICATE THE FULL PATH OF THE MPPD ICON IMAGE --------------------------------
 
-MPPD_icon = 'C:/Users/roda/Documents/Python Scripts/MPPD_icon.png'
+MPPD_icon = 'C:/Users/roda/Documents/Python Scripts/CoDo/MPPD_icon.png'
 
 # - INDICATE THE FIRST AND LAST LINE TO COMPUTE (IF ONLY ONE LINE, START_VALUE=END_VALUE)
 start_value = 4
-end_value = 43
+end_value = 4
 
 
 # ------------------------------------------------------------------------------------
@@ -974,25 +974,27 @@ def clear_input(x, y, val):
 #######################################################################
 
 start = time.time()
-
-Input_df = pd.read_excel(template_file, sheet_name='Data',
-                         skiprows=[0, 1], dtype={'ID': str, 'Output_file': str, 'Substance': str,
-                                                 'media_viscosity': float, 'media_density': float,
-                                                 'media_temperature': float,
-                                                 'pp_density': float, 'agg_diameter': float,
-                                                 'agg_effective_density': float, 'column_height': float,
-                                                 'initial_concentration': float,
-                                                 'simulation_time': int, 'eq_change_rate': float,
-                                                 'subcompartment_height': float, 'simulation_time_interval': float,
-                                                 'output_time_interval': float,
-                                                 'output_compartment_height': float,
-                                                 'sedimentation_cdependence': float,
-                                                 'diffusion_cdependence': float,
-                                                 'initial_dissolution': float, 'dissolution_rate_type': float,
-                                                 'dissolution_rate': float,
-                                                 'dissolution_times': str, 'dissolution_fractions': str,
-                                                 'air_type': str,
-                                                 'adsorption_dissociation_constant': float})
+try:
+    Input_df = pd.read_csv(template_file)
+except:
+    Input_df = pd.read_excel(template_file, sheet_name='Data',
+                             skiprows=[0, 1], dtype={'ID': str, 'Output_file': str, 'Substance': str,
+                                                     'media_viscosity': float, 'media_density': float,
+                                                     'media_temperature': float,
+                                                     'pp_density': float, 'agg_diameter': float,
+                                                     'agg_effective_density': float, 'column_height': float,
+                                                     'initial_concentration': float,
+                                                     'simulation_time': int, 'eq_change_rate': float,
+                                                     'subcompartment_height': float, 'simulation_time_interval': float,
+                                                     'output_time_interval': float,
+                                                     'output_compartment_height': float,
+                                                     'sedimentation_cdependence': float,
+                                                     'diffusion_cdependence': float,
+                                                     'initial_dissolution': float, 'dissolution_rate_type': float,
+                                                     'dissolution_rate': float,
+                                                     'dissolution_times': str, 'dissolution_fractions': str,
+                                                     'air_type': str,
+                                                     'adsorption_dissociation_constant': float})
 
 lines_to_compute = [x - 4 for x in range(start_value, end_value + 1)]
 to_simulate_df = Input_df.loc[lines_to_compute, :].copy()
@@ -1026,7 +1028,7 @@ final_df_columns = ['ID', 'Substance', 'Primary_particle_diameter_nm', 'Agglomer
                     'SA_per_Area_eq_cm2/cm2',
                     'N_per_Area_eq_n/cm2', 'Agglomerate_density_air', 'Sticky_bottom',
                     'SA_per_area_end_pp_cm2/cm2', 'sex', 'air_particle_type', 'exposure_concentration_air_end_mg/m3',
-                    'exposure_concentration_air_eq_mg/m3', 'exposure_concentration_air_year_mg/m3',
+                    'exposure_concentration_air_eq_mg/m3', 'exposure_concentration_air_five_d_mg/m3', 'exposure_concentration_air_year_mg/m3',
                     'exposure_concentration_air_worklife_mg/m3']
 
 final_file = []
@@ -1047,9 +1049,9 @@ if to_compute_MPPD:
     MPPD_data = []
     columns_MPPD = ['Substance', 'pp_diameter_nm', 'agg_diameter_nm', 'density_g/cm2', 'Lung_Model', 'sex',
                     'Exposure', 'Clearance', 'Exposure_time_h', 'Exposure_time_d', 'Exposure_time_w',
-                    'Alveolar_retention_h_mg',
-                    'Alveolar_retention_y_mg', 'Alveolar_retention_w_mg', 'Alveolar_surface_cm2', 'Deposited_per_area_h_mg/cm2',
-                    'Deposited_per_area_y_mg/cm2',
+                    'Alveolar_retention_h_mg', 'Alveolar_retention_five_mg',
+                    'Alveolar_retention_y_mg', 'Alveolar_retention_w_mg', 'Alveolar_surface_cm2',
+                    'Deposited_per_area_h_mg/cm2', 'Deposited_per_area_five_mg/cm2', 'Deposited_per_area_y_mg/cm2',
                     'Deposited_per_area_w_mg/cm2']
     list_filenames = []
     # pulmonary parameters woman from Brown 2013
@@ -1209,6 +1211,9 @@ if to_compute_MPPD:
             alv_sa = 559000
         # find results of alveolar retention for either exposure time or year and worklife time
         if parameters[10] == 1820:
+            Alv_retention_five = result['Alveolar_retention'][
+                (result.index > start_line) & (result.hour == str(parameters[8]))
+                & (result.day == '5') & (result.week == '1')]
             Alv_retention_y = result['Alveolar_retention'][
                 (result.index > start_line) & (result.hour == str(parameters[8]))
                 & (result.day == str(parameters[9])) & (
@@ -1216,18 +1221,19 @@ if to_compute_MPPD:
             Alv_retention_w = result['Alveolar_retention'][
                 (result.index > start_line) & (result.hour == str(parameters[8]))
                 & (result.day == str(parameters[9])) & (result.week == str(parameters[10]))]
+            alv_dep_sa_five = float(Alv_retention_five) / alv_sa
             alv_dep_sa_y = float(Alv_retention_y) / alv_sa
             alv_dep_sa_w = float(Alv_retention_w) / alv_sa
             parameters.extend(
-                [np.nan, float(Alv_retention_y), float(Alv_retention_w), alv_sa, np.nan, alv_dep_sa_y, alv_dep_sa_w])
+                [np.nan, float(Alv_retention_five), float(Alv_retention_y), float(Alv_retention_w), alv_sa, np.nan, alv_dep_sa_five, alv_dep_sa_y, alv_dep_sa_w])
         else:
             Alv_retention = result['Alveolar_retention'][
                 (result.index > start_line) & (result.hour == str(parameters[8]))
                 & (result.day == str(parameters[9])) & (
                         result.week == str(parameters[10]))]
             alv_dep_sa = float(Alv_retention) / alv_sa
-            parameters.extend([float(Alv_retention), np.nan, np.nan, alv_sa, alv_dep_sa, np.nan, np.nan])
-        empty_items = 18 - len(parameters)
+            parameters.extend([float(Alv_retention), np.nan,np.nan, np.nan, alv_sa, alv_dep_sa, np.nan, np.nan, np.nan])
+        empty_items = len(columns_MPPD) - len(parameters)
         if empty_items < 0:
             raise ValueError('more parameters than column names')
         MPPD_data.append(parameters)
@@ -1264,23 +1270,24 @@ for line in range(len(lines_to_compute)):
 
     # if there is a result for "equilibrium" time
     if isinstance(line_for_df[6], float):
-        # consider the increase per hour of deposited dose given by the difference between the yearly deposited and
+        # consider the increase per hour of deposited dose given by the difference between the five day deposited and
         # the deposited at simulation time; this is an approximation assuming that the increase in deposition is linear
-        hourly_add_dep = (MPPD_line_long['Deposited_per_area_y_mg/cm2'] - MPPD_line['Deposited_per_area_h_mg/cm2']) / (
-                8760 - Input_parameters['simulation_time'])
+        hourly_add_dep = (MPPD_line_long['Deposited_per_area_five_mg/cm2'] - MPPD_line['Deposited_per_area_h_mg/cm2']) / (
+                120 - Input_parameters['simulation_time'])
         dep_area_eq = MPPD_line['Deposited_per_area_h_mg/cm2'] + (
                 line_for_df[6] - Input_parameters['simulation_time']) * hourly_add_dep
         exposure_eq = float(line_for_df[13] / dep_area_eq)
     else:
         exposure_eq = 'not defined'
     exposure_end = float(line_for_df[8] / MPPD_line['Deposited_per_area_h_mg/cm2'])
+    exposure_five = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_five_mg/cm2'])
     exposure_year = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_y_mg/cm2'])
     exposure_worklife = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_w_mg/cm2'])
     if 'ssa' not in Input_parameters.keys():
         Input_parameters['ssa'] = ssa(Input_parameters['pp_diameter'], Input_parameters['pp_density'])
-    SA_dep_ssa = Input_parameters['ssa'] * line_for_df[8]
+    SA_dep_ssa = Input_parameters['ssa'] * line_for_df[8]*10
     line_for_df.extend([Input_parameters['air_agg_density'], str(Input_parameters['sticky']), SA_dep_ssa, Input_parameters['sex'],
-                        Input_parameters['air_type'], exposure_end, exposure_eq, exposure_year, exposure_worklife])
+                        Input_parameters['air_type'], exposure_end, exposure_eq,exposure_five, exposure_year, exposure_worklife])
 
     final_file.append(line_for_df)
 
