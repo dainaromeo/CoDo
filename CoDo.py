@@ -987,10 +987,11 @@ def clear_input(x, y, val):
 ######################################################################
 ###EXECUTING CODE
 #######################################################################
-
+csv = False
 start = time.time()
 try:
     Input_df = pd.read_csv(template_file)
+    csv = True
 except:
     Input_df = pd.read_excel(template_file, sheet_name='Data',
                              skiprows=[0, 1], dtype={'ID': str, 'Output_file': str, 'Substance': str,
@@ -1011,7 +1012,10 @@ except:
                                                      'air_type': str,
                                                      'adsorption_dissociation_constant': float})
 
-lines_to_compute = [x - 4 for x in range(start_value, end_value + 1)]
+to_zero = 4
+if csv:
+    to_zero = 2    
+lines_to_compute = [x - to_zero for x in range(start_value, end_value + 1)]
 to_simulate_df = Input_df.loc[lines_to_compute, :].copy()
 to_simulate_df.reset_index(drop=True, inplace=True)
 required_df = to_simulate_df[['ID', 'Substance', 'sex', 'air_type', 'media_viscosity', 'media_density', 'pp_density',
