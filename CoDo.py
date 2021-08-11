@@ -1,17 +1,19 @@
 '''
+
 CoDo, a combined dosimetry model
 
 Copyright ©, 2021 , Empa, Daina Romeo
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
-to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
 and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 '''
 
@@ -41,7 +43,7 @@ MPPD_icon = 'C:/Users/roda/Documents/Python Scripts/CoDo/MPPD_icon.png'
 
 # - INDICATE THE FIRST AND LAST LINE TO COMPUTE (IF ONLY ONE LINE, START_VALUE=END_VALUE)
 start_value = 4
-end_value = 4
+end_value = 7
 
 
 # ------------------------------------------------------------------------------------
@@ -178,7 +180,6 @@ def in_vitro_simulation(ID=None, Output_file='missing name', Substance=None,
     # raw material mass/concentration). Equal to the mass of media per unit mass
     # of material (P.mm) plus the unit mass (1.0) of material
     P['Magg'] = P['mm'] + 1.0
-
     # initial transport coefficients for all agglomerate size species
 
     # agglomerate sed coeff (at C=0)
@@ -949,8 +950,10 @@ def air_density(agg_effective_density, media_density, pp_density):
 def find_in_MPPD(MPPD_database, Input_parameters):
     if Input_parameters['air_type'] == 'pp':
         air_diameter = float(Input_parameters['pp_diameter'])
-    else:
+    elif Input_parameters['air_type'] == 'agg':
         air_diameter = float(Input_parameters['agg_diameter'])
+    else:
+        air_diameter = Input_parameters['aero_diam']
     MPPD_line = MPPD_database[(MPPD_database.Substance == Input_parameters['Substance']) & (
             MPPD_database.agg_diameter_nm == air_diameter) & (
                                           MPPD_database.pp_diameter_nm == float(Input_parameters['pp_diameter'])) &
@@ -987,6 +990,7 @@ def clear_input(x, y, val):
 ######################################################################
 ###EXECUTING CODE
 #######################################################################
+
 csv = False
 start = time.time()
 try:
@@ -996,7 +1000,7 @@ except:
     Input_df = pd.read_excel(template_file, sheet_name='Data',
                              skiprows=[0, 1], dtype={'ID': str, 'Output_file': str, 'Substance': str,
                                                      'media_viscosity': float, 'media_density': float,
-                                                     'media_temperature': float,
+                                                     'media_temperature': float, 'aero_diam' : float,
                                                      'pp_density': float, 'agg_diameter': float,
                                                      'agg_effective_density': float, 'column_height': float,
                                                      'initial_concentration': float,
@@ -1014,7 +1018,8 @@ except:
 
 to_zero = 4
 if csv:
-    to_zero = 2    
+    to_zero = 2
+
 lines_to_compute = [x - to_zero for x in range(start_value, end_value + 1)]
 to_simulate_df = Input_df.loc[lines_to_compute, :].copy()
 to_simulate_df.reset_index(drop=True, inplace=True)
@@ -1026,14 +1031,18 @@ if (required_df['agg_diameter'] < 26).any():
     raise ValueError('At least one agglomerate diameter is < 26nm. Please remove/modify entry.')
 to_simulate_df['air_type'] = to_simulate_df['air_type'].map(lambda x: x.lower())
 to_simulate_df['air_type'] = to_simulate_df['air_type'].str.strip()
-if not ((to_simulate_df['air_type'] == 'agg') | (to_simulate_df['air_type'] == 'pp')).all():
-    raise ValueError('Air type parameter is different from pp or agg. Please check input file.')
+if not ((to_simulate_df['air_type'] == 'agg') | (to_simulate_df['air_type'] == 'pp') | (to_simulate_df['air_type'] == 'aero')).all():
+    raise ValueError('Air type parameter is different from pp or agg or aero. Please check input file.')
+if ((to_simulate_df['air_type'] == 'aero') & pd.isna(to_simulate_df['aero_diam'])).any():
+    raise ValueError('The aerodynamic diameter is not provided for an entry with aero indicated as type of particle in '
+                     'air. Please check the input file.')
 # calculate agglomerate density if missing via Sterling equation
 to_simulate_df['agg_effective_density'] = to_simulate_df.apply(
     lambda x: sterling_density(x['agg_diameter'], x['pp_diameter'], x['media_density'], x['pp_density']) if np.isnan(
         x['agg_effective_density']) else x['agg_effective_density'], axis=1)
 to_simulate_df['air_agg_density'] = to_simulate_df.apply(
-    lambda x: air_density(x['agg_effective_density'], x['media_density'], x['pp_density']) if x['air_type'] == 'agg' else x['pp_density'], axis=1)
+    lambda x: air_density(x['agg_effective_density'], x['media_density'], x['pp_density']) if x['air_type'] == 'agg'
+    else x['pp_density'] if x['air_type'] == 'pp' else 1.0, axis=1)
 to_simulate_df['sex'] = to_simulate_df['sex'].map(lambda x: x.lower())
 to_simulate_df['sex'] = to_simulate_df['sex'].str.strip()
 if not ((to_simulate_df['sex'] == 'male') | (to_simulate_df['sex'] == 'female')).all():
@@ -1044,11 +1053,11 @@ final_df_columns = ['ID', 'Substance', 'Primary_particle_diameter_nm', 'Agglomer
                     'Initial concentration_mg/cm3', 'End_time_h', 'Stable_time_h', 'Fraction_deposited_end',
                     'Mass_per_Area_end_mg/cm2', 'Mass+Dissolved_per_Area_end_mg/cm2', 'SA_per_Area_end_cm2/cm2',
                     'N_per_Area_end_n/cm2', 'Fraction_deposited_eq', 'Mass_per_Area_eq_mg/cm2',
-                    'SA_per_Area_eq_cm2/cm2',
-                    'N_per_Area_eq_n/cm2', 'Agglomerate_density_air', 'Sticky_bottom',
+                    'SA_per_Area_eq_cm2/cm2', 'N_per_Area_eq_n/cm2', 'SSA_m2/g', 'Complete_deposition_in_lung',
+                    'Agglomerate_diameter_air_nm', 'Agglomerate_density_air_g/cm3', 'Sticky_bottom',
                     'SA_per_area_end_pp_cm2/cm2', 'sex', 'air_particle_type', 'exposure_concentration_air_end_mg/m3',
-                    'exposure_concentration_air_eq_mg/m3', 'exposure_concentration_air_five_d_mg/m3', 'exposure_concentration_air_year_mg/m3',
-                    'exposure_concentration_air_worklife_mg/m3']
+                    'exposure_concentration_air_eq_mg/m3', 'exposure_concentration_air_five_d_mg/m3',
+                    'exposure_concentration_air_year_mg/m3', 'exposure_concentration_air_worklife_mg/m3']
 
 final_file = []
 
@@ -1059,6 +1068,8 @@ MPPD = pd.read_csv(MPPD_dataset)
 to_compute_MPPD = []
 for line in range(len(lines_to_compute)):
     Input_parameters = Input_dict[line]
+    if Input_parameters['total_dep']:
+        continue
     MPPD_line, MPPD_line_long = find_in_MPPD(MPPD, Input_parameters)
     if MPPD_line.empty or MPPD_line_long.empty:
         to_compute_MPPD.append(line)
@@ -1084,7 +1095,7 @@ if to_compute_MPPD:
     scenario_label = ['s', 'w']
 
     # size parameters
-    diameter_label = ['agg', 'pp']
+    diameter_label = ['agg', 'pp', 'aero']
 
     print(
         'Not all particles are available in the MPPD database. They will be calculated now. \nPlease open the MPPD program,'
@@ -1110,7 +1121,8 @@ if to_compute_MPPD:
 
     for line in to_compute_MPPD:
         density = to_simulate_df.loc[line, 'air_agg_density']
-        diameter = [to_simulate_df.loc[line, 'agg_diameter'] / 1000, to_simulate_df.loc[line, 'pp_diameter'] / 1000]
+        diameter = [to_simulate_df.loc[line, 'agg_diameter'] / 1000, to_simulate_df.loc[line, 'pp_diameter'] / 1000,
+                    to_simulate_df.loc[line, 'aero_diam'] / 1000]
         hours = [to_simulate_df.loc[line, 'simulation_time'], 8]
         ID = int(to_simulate_df.loc[line, 'ID'])
         Substance = to_simulate_df.loc[line, 'Substance']
@@ -1141,8 +1153,10 @@ if to_compute_MPPD:
             size = 0
         elif to_simulate_df.loc[line, 'air_type'] == 'pp':
             size = 1
+        elif to_simulate_df.loc[line, 'air_type'] == 'aero':
+            size = 2
         else:
-            raise ValueError('The type of particle in air should be either pp or agg. Please check the template file.')
+            raise ValueError('The type of particle in air should be either pp or agg or aero. Please check the template file.')
 
         # selecting inhalant properties- aerosol
         pyautogui.click(**coordinates(107, 76))
@@ -1254,7 +1268,7 @@ if to_compute_MPPD:
             parameters.extend([float(Alv_retention), np.nan,np.nan, np.nan, alv_sa, alv_dep_sa, np.nan, np.nan, np.nan])
         empty_items = len(columns_MPPD) - len(parameters)
         if empty_items < 0:
-            raise ValueError('more parameters than column names')
+            raise ValueError('More parameters than column names in the MPPD dataset.')
         MPPD_data.append(parameters)
     MPPD_df = pd.DataFrame(data=MPPD_data, columns=columns_MPPD)
     MPPD_df.drop_duplicates(inplace=True)
@@ -1275,37 +1289,65 @@ for line in range(len(lines_to_compute)):
     # identify if MPPD database includes the data for the specific substance
     if Input_parameters['air_type'] == 'pp':
         air_diameter = float(Input_parameters['pp_diameter'])
-    else:
+    elif Input_parameters['air_type'] == 'agg':
         air_diameter = float(Input_parameters['agg_diameter'])
-    MPPD_line, MPPD_line_long = find_in_MPPD(MPPD, Input_parameters)
-    MPPD_line = MPPD_line.to_dict(orient='records')[0]
-    MPPD_line_long = MPPD_line_long.to_dict(orient='records')[0]
+    else:
+        air_diameter = float(Input_parameters['aero_diam'])
+    if not Input_parameters['total_dep']:
+        MPPD_line, MPPD_line_long = find_in_MPPD(MPPD, Input_parameters)
+        MPPD_line = MPPD_line.to_dict(orient='records')[0]
+        MPPD_line_long = MPPD_line_long.to_dict(orient='records')[0]
     if pd.isnull(Input_parameters['sticky']):
         Input_parameters['sticky'] = 'False'
     Input_parameters = {k: v for k, v in Input_parameters.items() if type(v) != float or (type(v) == float and v == v)}
 
     # Run in vitro simulation
     line_for_df = in_vitro_simulation(**Input_parameters)
-
-    # if there is a result for "equilibrium" time
-    if isinstance(line_for_df[6], float):
-        # consider the increase per hour of deposited dose given by the difference between the five day deposited and
-        # the deposited at simulation time; this is an approximation assuming that the increase in deposition is linear
-        hourly_add_dep = (MPPD_line_long['Deposited_per_area_five_mg/cm2'] - MPPD_line['Deposited_per_area_h_mg/cm2']) / (
-                120 - Input_parameters['simulation_time'])
-        dep_area_eq = MPPD_line['Deposited_per_area_h_mg/cm2'] + (
-                line_for_df[6] - Input_parameters['simulation_time']) * hourly_add_dep
-        exposure_eq = float(line_for_df[13] / dep_area_eq)
-    else:
-        exposure_eq = 'not defined'
-    exposure_end = float(line_for_df[8] / MPPD_line['Deposited_per_area_h_mg/cm2'])
-    exposure_five = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_five_mg/cm2'])
-    exposure_year = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_y_mg/cm2'])
-    exposure_worklife = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_w_mg/cm2'])
+    # Calculate the air concentration corresponding to the deposited dose per area in the two cases: either using lung
+    # dosimetry to find the air concentration corresponding to a retained dose as the deposited dose in vitro, or assume
+    # 100% deposition of the particles, in which case the breathing rate, tidal volume and alveoli surface area are enough
+    if not Input_parameters['total_dep']:
+        # if there is a result for "equilibrium" time
+        if isinstance(line_for_df[6], float):
+            # consider the increase per hour of deposited dose given by the difference between the five day deposited and
+            # the deposited at simulation time; this is an approximation assuming that the increase in deposition is linear
+            hourly_add_dep = (MPPD_line_long['Deposited_per_area_five_mg/cm2'] - MPPD_line['Deposited_per_area_h_mg/cm2']) / (
+                    120 - Input_parameters['simulation_time'])
+            dep_area_eq = MPPD_line['Deposited_per_area_h_mg/cm2'] + (
+                    line_for_df[6] - Input_parameters['simulation_time']) * hourly_add_dep
+            exposure_eq = float(line_for_df[13] / dep_area_eq)
+        else:
+            exposure_eq = 'not defined'
+        exposure_end = float(line_for_df[8] / MPPD_line['Deposited_per_area_h_mg/cm2'])
+        exposure_five = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_five_mg/cm2'])
+        exposure_year = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_y_mg/cm2'])
+        exposure_worklife = float(line_for_df[8] / MPPD_line_long['Deposited_per_area_w_mg/cm2'])
+    #100% deposition
+    elif Input_parameters['total_dep']:
+        if Input_parameters['sex'] == 'man':
+            # breathing frequency #/min
+            BF = 12
+            # Tidal volume mL
+            TV = 625
+            # alveoli SA in cm2
+            alv_sa = 792000
+        else:
+            BF = 14
+            TV = 464
+            alv_sa = 559000
+        if isinstance(line_for_df[6], float):
+            # line for df 6 is the hours at which we have a stable time, line for df 13 the deposited amount per cm2
+            exposure_eq = float(line_for_df[13] * alv_sa / (line_for_df[6] * 60 * BF * TV / 1000000))
+        else:
+            exposure_eq = 'not defined'
+        exposure_end = float(line_for_df[8] * alv_sa / (line_for_df[5] * 60 * BF * TV / 1000000))
+        exposure_five = float(line_for_df[8] * alv_sa / (5 * 8 * 60 * BF * TV / 1000000))
+        exposure_year = float(line_for_df[8] * alv_sa / (52 * 5 * 8 * 60 * BF * TV / 1000000))
+        exposure_worklife = float(line_for_df[8] * alv_sa / (35 * 52 * 5 * 8 * 60 * BF * TV / 1000000))
     if 'ssa' not in Input_parameters.keys():
         Input_parameters['ssa'] = ssa(Input_parameters['pp_diameter'], Input_parameters['pp_density'])
     SA_dep_ssa = Input_parameters['ssa'] * line_for_df[8]*10
-    line_for_df.extend([Input_parameters['air_agg_density'], str(Input_parameters['sticky']), SA_dep_ssa, Input_parameters['sex'],
+    line_for_df.extend([Input_parameters['ssa'], Input_parameters['total_dep'], air_diameter, Input_parameters['air_agg_density'], str(Input_parameters['sticky']), SA_dep_ssa, Input_parameters['sex'],
                         Input_parameters['air_type'], exposure_end, exposure_eq,exposure_five, exposure_year, exposure_worklife])
 
     final_file.append(line_for_df)
