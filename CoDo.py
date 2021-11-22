@@ -250,7 +250,7 @@ def in_vitro_simulation(ID=None, Output_file='missing name', Substance=None,
         maxdtd = (0.49 * subH ** 2) / P['Dcoeff']
         # maximum time for a step (maxdt) is min of max diffusion and sedimentation
         maxdt = min(maxdts, maxdtd)
-        raise ValueError(f'the simulation time interval is too long, please use a value < {maxdt} seconds')
+        #raise ValueError(f'the simulation time interval is too long, please use a value < {maxdt} seconds')
 
 
     # diffusion concentration change calculation constant
