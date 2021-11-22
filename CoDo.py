@@ -243,7 +243,7 @@ def in_vitro_simulation(ID=None, Output_file='missing name', Substance=None,
     # Calculate max fractional concentration change from diffusion in dt
     MaxDdcdx = P['Dcoeff'] * (dt / subH ** 2)
     # if either max is above 0.5 (.49 to be safe), throw error and recommend
-    if MaxSdx >= 0.49 and MaxDdcdx >= 0.49:
+    if MaxSdx >= 0.49 or MaxDdcdx >= 0.49:
         # calculate maximum time for sedimentation
         maxdts = 0.49 * subH / (Ng * Ga * abs(P['Scoeff']))
         # calculate maximum time for diffusion
@@ -555,9 +555,9 @@ def in_vitro_simulation(ID=None, Output_file='missing name', Substance=None,
         eq_frac, eq_mass, eq_sa, eq_num = float(OutFrxMassdzbot[begin_eq][-1]), float(DepMassBott[begin_eq][-1]), \
                                           float(SADepBottcomp[begin_eq][-1]), float(NDepBottcomp[begin_eq][-1])
     one_line_result = [ID, Substance, pp_diameter, float(agg_diameter), initial_concentration,
-                       simulation_time, eq_time, float(OutFrxMassdzbot[NOutPoints - 1][-1]),
-                       float(DepMassBott[NOutPoints - 1][-1]), float(DepMassDissBottcomp[NOutPoints - 1][-1]),
-                       float(SADepBottcomp[NOutPoints - 1][-1]), float(NDepBottcomp[NOutPoints - 1][-1]),
+                       simulation_time, eq_time, float(OutFrxMassdzbot[-1][-1]),
+                       float(DepMassBott[-1][-1]), float(DepMassDissBottcomp[-1][-1]),
+                       float(SADepBottcomp[-1][-1]), float(NDepBottcomp[-1][-1]),
                        eq_frac, eq_mass, eq_sa, eq_num]
 
     print(f'ID {ID}: In vitro simulation complete')
